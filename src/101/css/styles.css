@@ -1,0 +1,20 @@
+i.las, i.lab, i.la {
+    font-size: 36px;
+    display: none;
+}
+
+i.las.show, i.lab.show, i.la.show {
+    display: block;
+}
+
+i.las.pick, i.lab.pick, i.la.pick {
+    background-color: var(--pico-secondary-background);
+}
+
+i.las.correct, i.lab.correct, i.la.correct {
+    background-color: var(--pico-primary-background);
+}
+
+article {
+    text-align: center;
+}
