@@ -1,14 +1,16 @@
-# CPSC-1520 - **Student Workbook** (Jan 2025)
+# CPSC-1520 - **Student Workbook** (Sep 2025)
 
 > **STUDENT_NAME** - Place your name in this line.
 
+## Schedule
+
+> Consult Brightspace for the mark distribution, dates for scheduled evaluations, and the draft planning calendar. See the [**Agenda** in this repo](./Agenda.md) for a day-to-day record/summary of upcoming and completed topics, including additional starter kits.
+
 ## ![Inside This Repo](./docs/images/level.png) Inside this repository
 
-This repository is your **Student Workbook** for participating in the in-class demos and for completing practice homework; the coding work is to be placed in the [*`src/`*](./src/ReadMe.md) folder. Learning Outcomes ([**LOGs**](./docs/logs/ReadMe.md)) and other useful notes can be found in the [**docs** folder](./docs), such as links to the [Reading Materials](./docs/Readings.md) for the course. Also, you are encouraged to use the [**docs/mynotes**](./docs/mynotes/ReadMe.md) folder to record your notes from each class.
+This repository is Dan Gilleland's **Instructor Workbook** of the in-class demos and assorted homework solutions; see the [*`src/`*](./src/ReadMe.md) folder. I have some additional notes in the [**docs/mynotes**](./docs/mynotes/ReadMe.md) folder to record your notes from each class.
 
-> :warning: **Do *NOT*** use this repository for any assignments that are worth marks. For work worth marks in this course, only use repositories set up/approved by your instructor. :warning:
-
-The course's [Brightspace site](https://lms.nait.ca/d2l/home) contains official information. An *ad-hoc* site for tutorials, references, etc. has been set up by your instructor for this final Jan 2025 offering of this course: [**dgilleland.github.io/CPSC-1520/**](https://dgilleland.github.io/CPSC-1520/).
+The course's [Brightspace site](https://lms.nait.ca/d2l/home) contains official information. An *ad-hoc* site for tutorials, references, etc. has been set up by your instructor for this final Sep 2025 offering of this course: [**dgilleland.github.io/CPSC-1520/**](https://dgilleland.github.io/CPSC-1520/).
 
 ----
 
