@@ -31,6 +31,8 @@
 - Software Setup
 - Workbook Setup
   - [000](./src/000/ReadMe.md)
+- **Homework:**
+  - Ensure you have completed the [**system setup**](https://dgilleland.github.io/CPSC-1520/tutorials/0010/) so that you have the software etc. that you need for this course.
 
 
 ### Sep 05
