@@ -38,7 +38,7 @@
 
 - Workbook Setup
   - Troubleshoot Access
-    - 🚨 Contact me via MS Teams if you have any trouble accessing/using your workbook!
+    - 🚨 Contact me via MS Teams outside of class if you have any trouble accessing/using your workbook or other repositories!
   - [000](./src/000/ReadMe.md)
 - **Homework:**
   - Complete the [Practice Version Control](https://dgilleland.github.io/CPSC-1520/tutorials/0011/) tutorial; be sure to publish it as a **public** repository on your **personal** GitHub account.
