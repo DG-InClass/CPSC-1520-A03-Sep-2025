@@ -1,6 +1,6 @@
 # CPSC-1520 - **Student Workbook** (Sep 2025)
 
-> **STUDENT_NAME** - Place your name in this line.
+> **Dan Gilleland**
 
 ## Schedule
 
@@ -30,7 +30,7 @@ At the end of the term, your repositories on the [CPSC-1520 GitHub Organization]
 
 - **Software**
   - [**Visual Studio Code**](https://code.visualstudio.com) (see [Notes](#vs-code-extensions) on VS Code extensions) - This is the preferred editor for working in almost any programming language.
-    - [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Extension
+    - [~~Live Server~~](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) Extension
   - [**git**](https://git-scm.com/downloads) - This is the beating heart of **Version Control**, something that you will work with every day. Second only to your editor in terms of usage, it's indispensible for managing your development in teams or on your own.
   - [**node**](https://nodejs.org/en/download/) (which includes **npm**) - Node is a run-time that allows you to use JavaScript on the web server. It comes along with npm (*Node Package Manager*), a package-management tool for the command line that allows you to integrate 3rd-party libraries with your application.
   - [**pnpm**](https://pnpm.io) - An alternative to Node's built-in `npm` tool, `pnpm` is much faster and more efficient to use.
