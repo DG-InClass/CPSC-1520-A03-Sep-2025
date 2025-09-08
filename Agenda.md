@@ -47,7 +47,7 @@
 ### Sep 08
 
 - **Today's Class**
-  - [ ] Course Intro [Notes](./src/000/ReadMe.md) and [LOGs](./src/000/LOGs.md)
+  - [x] Course Intro [Notes](./src/000/ReadMe.md) and [LOGs](./src/000/LOGs.md)
   - [ ] Discuss [key aspects](./src/001-StartHere/LOGs.md) of using git and Markdown
   - [ ] Add the first starter kit to your Student Workbook
 
