@@ -48,7 +48,7 @@
 
 - **Today's Class**
   - [x] Course Intro [Notes](./src/000/ReadMe.md) and [LOGs](./src/000/LOGs.md)
-  - [ ] Discuss [key aspects](./src/001-StartHere/LOGs.md) of using git and Markdown
+  - [x] Discuss [key aspects](./src/001-StartHere/LOGs.md) of using git and Markdown
   - [ ] Add the first starter kit to your Student Workbook
 
     ```ps
@@ -64,6 +64,7 @@
 - **Homework**
   - [ ] Double check that you have [everything ready](./src/001-StartHere/ReadMe.md) to proceed with our in-class lessons.
   - [ ] Practice git and Markdown on your own using the provided [**instructions**](./src/002/ReadMe.md)
+  - [ ] Try the instructions in the [003](./src/003/ReadMe.md) starter kit.
   - [ ] *Quiz Reminder:* [Readings for Quiz 1](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998885/View)
     - *This will be your only reminder that you have readings associated with each quiz. It is **your** responsibility to keep up with the readings and complete your quizzes before the cutoff date.*
 
