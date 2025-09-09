@@ -1,5 +1,9 @@
 # Agenda (A03)
 
+<!--
+Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
+-->
+
 > These are my notes on what I plan to teach in each [**upcoming class**](#sep-08).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
