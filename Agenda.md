@@ -74,6 +74,21 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 
 ### Sep 10
 
+- **Today**
+  - [ ] [Explore JavaScript in HTML](./src/004/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/004 ./src/004
+    ```
+
+    Remember to clone/push the starter kit you just grabbed:
+
+    ```ps
+    git add .
+    git commit -m "004 Starter Kit"
+    git push
+    ```
+
 <!--
 
 - **Homework**
