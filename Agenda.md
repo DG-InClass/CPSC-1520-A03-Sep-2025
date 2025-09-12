@@ -261,7 +261,7 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 
     ```ps
     git add .
-    git commit -m "004 Starter Kit"
+    git commit -m "005 Starter Kit"
     git push
     ```
 
