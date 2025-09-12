@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-08).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-12).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -250,6 +250,35 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 
 ### Sep 12
 
+- **Today**
+  - [ ] [Handling Information](./src/005/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/004 ./src/004
+    ```
+
+    Remember to clone/push the starter kit you just grabbed:
+
+    ```ps
+    git add .
+    git commit -m "004 Starter Kit"
+    git push
+    ```
+
+  - [ ] QuickStart Tutorial - `app.js`
+    - Before jumping into the [005/ReadMe.md](./src/005/ReadMe.md), take a quick scan of the [learning outcomes](./src/005/LOGs.md) for this starter kit
+    - We'll do the first QuickStart *together*: [**Intro to JavaScript**](https://dgilleland.github.io/CPSC-1520/tutorials/0012/)
+      - [ ] Create a subfolder of `~/src/005/JS-Quickstart`
+  - [ ] Turn the `~/src/005/live-demo` into a Node project that uses Vite.
+- **Homework:**
+  - [ ] Complete the following QuickStart tutorials:
+    - [ ] [JavaScript Math](https://dgilleland.github.io/CPSC-1520/tutorials/0014/)
+    - [ ] [Manipulate Strings](https://dgilleland.github.io/CPSC-1520/tutorials/0015/)
+    - [ ] [Complex Data Types](https://dgilleland.github.io/CPSC-1520/tutorials/0016/)
+  - [ ] Review basics of JavaScript within HTML through the following tutorials:
+    - [ ] [Discover Emmet](https://dgilleland.github.io/CPSC-1520/tutorials/0025/)
+    - [ ] [Querying the DOM](https://dgilleland.github.io/CPSC-1520/tutorials/0030/)
+    - [ ] [Using `<script>` Tags](https://dgilleland.github.io/CPSC-1520/tutorials/0040/)
 
 ### Sep 15
 
