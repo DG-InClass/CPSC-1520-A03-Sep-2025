@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Side Form Processing</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <hgroup>
+                <img src="./images/android-chrome-192x192.png" alt="Alembic">
+                <h1>Client-Side Form Processing</h1>
+                <p>Try interacting with each of these various forms and observe the results in the sidebar.</p>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li>
+                        <details class="dropdown">
+                            <summary role="button" class="secondary">Theme</summary>
+                            <ul>
+                                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <form id="subscribe">
+                    <div class="grid">
+                        <input type="text" name="firstname" placeholder="First name" aria-label="First name" required />
+                        <input type="email" name="email" placeholder="Email address" aria-label="Email address"
+                            autocomplete="email" required />
+                        <button type="submit">Subscribe</button>
+                    </div>
+                    <div>
+                        <label for="terms">
+                            <input type="checkbox" role="switch" id="terms" name="terms" />
+                            I agree to the
+                            <a href="#" onclick="event.preventDefault()">Privacy Policy</a>
+                        </label>
+                    </div>
+                </form>
+            </article>
+            <article>
+                <form id="assorted">
+                    <div class="grid">
+                        <!-- Date-->
+                        <label for="date">Date
+                            <input type="date" id="date" name="date" />
+                        </label>
+
+                        <!-- Time-->
+                        <label for="time">Time
+                            <input type="time" id="time" name="time" />
+                        </label>
+
+                        <!-- Color-->
+                        <label for="color">Color
+                            <input type="color" id="color" name="color" value="#0eaaaa" />
+                        </label>
+                    </div>
+
+                    <div class="grid">
+                        <!-- Checkboxes -->
+                        <div>
+                            <label for="checkbox-1">
+                                <input type="checkbox" id="checkbox-1" name="feature" value="border" checked />
+                                Border
+                            </label>
+                            <label for="checkbox-2">
+                                <input type="checkbox" id="checkbox-2" name="feature" value="background" />
+                                Background
+                            </label>
+                            <label for="checkbox-3">
+                                <input type="checkbox" id="checkbox-3" name="feature" value="button enabled" />
+                                Enabled
+                            </label>
+                        </div>
+
+                        <!-- Radio buttons -->
+                        <div>
+                            <label for="radio-1">
+                                <input type="radio" id="radio-1" name="bg-color" value="#ff0000" />
+                                Red
+                            </label>
+                            <label for="radio-2">
+                                <input type="radio" id="radio-2" name="bg-color" value="#00ff00" />
+                                Blue
+                            </label>
+                            <label for="radio-3">
+                                <input type="radio" id="radio-3" name="bg-color" value="#0000ff" />
+                                Green
+                            </label>
+                        </div>
+
+                        <!-- Switch -->
+                        <div>
+                            <label for="switch-1">
+                                <input type="checkbox" id="switch-1" name="indoorCamera" role="switch" checked/>
+                                Indoor
+                            </label>
+                            <label for="switch-2">
+                                <input type="checkbox" id="switch-2" name="outdoorCamera" role="switch" />
+                                Outdoor
+                            </label>
+                            <label for="switch-3">
+                                <input type="checkbox" id="switch-3" name="garageCamera" role="switch" />
+                                Garage
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <input type="reset" value="Reset" />
+                    <input type="submit" value="Submit" />
+                </form>
+            </article>
+        </section>
+        <section>
+            <aside>
+                <h3>Form Output</h3>
+                <code>
+                    <pre id="feedback">This content will be replaced by JavaScript</pre>
+                </code>
+            </aside>
+        </section>
+    </main>
+    <footer class="container" data-theme="dark">
+        <hr />
+        <ul>
+            <li>Using the <a href="https://picocss.com/" target="_blank">PicoCSS</a> No-Class Stylesheet.</li>
+            <li><a target="_blank" href="https://icons8.com/icon/eTJ3Q9REJ1nH/internet">Internet</a> icon by <a
+                    target="_blank" href="https://icons8.com">Icons8</a>.</li>
+            <li>Form samples include adaptations from the <a
+                    href="https://github.com/picocss/examples/blob/master/v2-html/index.html" target="_blank"
+                    rel="noopener noreferrer">PicoCSS Samples</a></li>
+        </ul>
+        <p>&copy; 2024 - Instructor Dan</p>
+    </footer>
+    <!-- Minimal theme switcher -->
+    <script src="./js/minimal-theme-switcher.js"></script>
+</body>
+
+</html>

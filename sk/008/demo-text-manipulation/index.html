@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Manipulation Demo</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel= "stylesheet"
+      href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <section>
+            <h1>
+                Manipulating Text
+                <img src="./images/icons8-internet-64.png" alt="Internet">
+            </h1>
+            <input type="text" id="userInput" value="Lorem ipsum dolor sit amet">
+            <code>
+                <pre id="transformedText"></pre>
+            </code>
+        </section>
+        <hr>
+        <aside>
+            <fieldset class="grid">
+                <legend>Trim Text</legend>
+                <button id="transformTrim">Both</button>
+                <button id="transformTrimLeft">Left</button>
+                <button id="transformTrimRight">Right</button>
+            </fieldset>
+            <fieldset class="grid">
+                <button id="transformToUpperCase">Make Upper-Case</button>
+                <button id="transformToLowerCase">Make Lower-Case</button>
+            </fieldset>
+            <fieldset class="grid">
+                <fieldset role="group">
+                    <input type="button" id="transformPadStart" value="Pad Start" />
+                    <input type="text" id="startText" value="🎉" />
+                </fieldset>
+                <fieldset role="group">
+                    <input type="button" id="transformPadEnd" value="Pad End" />
+                    <input type="text" id="endText" value="💯" />
+                </fieldset>
+                <fieldset role="group">
+                    <span role="buton">Min-Length</span>
+                    <input type="number" id="minLength" />
+                </fieldset>
+            </fieldset>
+            <fieldset class="grid">
+                <fieldset role="group">
+                    <input type="text" id="replaceThis" value="sit">
+                    <input type="button" id="transformReplace" value="Replace With" />
+                    <input type="text" id="replaceWith" value="stand">
+                </fieldset>
+                <fieldset role="group">
+                    <input type="button" id="transformRepeat" value="Repeat Text" />
+                    <input type="number" id="repeatText" value="2">
+                </fieldset>
+            </fieldset>
+        </aside>
+    </main>
+    <footer class="container" data-theme="dark">
+        <hr />
+        <ul>
+            <li>Using the <a href="https://picocss.com/" target="_blank">PicoCSS</a> No-Class Stylesheet.</li>
+            <li><a target="_blank" href="https://icons8.com/icon/eTJ3Q9REJ1nH/internet">Internet</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.</li>          
+        </ul>
+        <p>&copy; 2024 - Instructor Dan</p>
+    </footer>
+</body>
+
+</html>
