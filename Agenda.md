@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-12).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-15).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -299,6 +299,7 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
     ✨ Remember to clone/push the starter kit you just grabbed:
 - **Homework:**
   - [ ] Complete the following QuickStart tutorials:
+    - [ ] Try to complete the [Demo Addition](./src/006/demo-addition/script.js) sample from 006.
     - [ ] [Functions in JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0017/)
     - [ ] [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/)
     - [ ] [Reusable Functions](https://dgilleland.github.io/CPSC-1520/tutorials/0060/)
