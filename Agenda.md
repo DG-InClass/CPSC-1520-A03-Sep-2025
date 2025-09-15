@@ -282,14 +282,61 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 
 ### Sep 15
 
+- **Today**
+  - [ ] [Intro to Functions](./src/006/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/006 ./src/006
+    ```
+
+    ✨ Remember to clone/push the starter kit you just grabbed:
+  - [ ] [Creating Functions](./src/007/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/007 ./src/007
+    ```
+
+    ✨ Remember to clone/push the starter kit you just grabbed:
+- **Homework:**
+  - [ ] Complete the following QuickStart tutorials:
+    - [ ] [Functions in JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0017/)
+    - [ ] [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/)
+    - [ ] [Reusable Functions](https://dgilleland.github.io/CPSC-1520/tutorials/0060/)
 
 ### Sep 17
 
+- **Today**
+  - [ ] [Event Listeners](./src/008/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/008 ./src/008
+    ```
+
+    ✨ Remember to clone/push the starter kit you just grabbed:
+- **Homework:**
+  - [ ] Complete the following QuickStart tutorials:
+    - [ ] [Intro to Event Listeners](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
 
 ### Sep 19
 
+- **In-Class Lab 1**
 
 ### Sep 22
+
+<!-- 
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/006 ./src/006
+    ```
+
+    ✨ Remember to clone/push the starter kit you just grabbed:
+ -->
+
+- **Today**
+  - [ ] 😢 **TBD** [Modifying the DOM](./src/006/ReadMe.md) (grab the starter kit first)
+- **Homework:**
+  - [ ] Complete the following QuickStart tutorials:
+    - [ ] [DOM Interactions](https://dgilleland.github.io/CPSC-1520/tutorials/0080/)
 
 
 ### Sep 24
