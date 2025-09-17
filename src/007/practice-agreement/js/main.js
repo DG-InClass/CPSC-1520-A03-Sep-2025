@@ -24,6 +24,8 @@ date = prompt('Enter the date [month, day, year]:');
 
 // update the disclosing party areas
 document.querySelector('.parties .disclosing-party').innerHTML = disclosing;
+//       \  HTMLElement                           /  \ prop  /
+//                                           
 document.querySelector('.disclosing-signature .disclosing-party').innerHTML = disclosing;
 
 // update the receiving party areas
