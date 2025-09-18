@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-15).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-19).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -290,13 +290,7 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
     ```
 
     ✨ Remember to clone/push the starter kit you just grabbed:
-  - [ ] [Creating Functions](./src/007/ReadMe.md) (grab the starter kit first)
-
-    ```ps
-    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/007 ./src/007
-    ```
-
-    ✨ Remember to clone/push the starter kit you just grabbed:
+  - [x] *Moved the lesson on Creating Functions to Sep 22*
 - **Homework:**
   - [ ] Complete the following QuickStart tutorials:
     - [ ] Try to complete the [Demo Addition](./src/006/demo-addition/script.js) sample from 006.
@@ -307,6 +301,42 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 ### Sep 17
 
 - **Today**
+  - [ ] **Demo Lab** - *See Brightspace announcement*
+  - [ ] Complete [006 Demo Addition](./src/006/demo-addition/)
+  - [ ] Revisit [005/live-demo](./src/005/live-demo/)
+- **Homework:**
+
+### Sep 19
+
+- **In-Class Lab 1**
+- **Demo Lab**
+  - Run the following in the terminal for the demo lab:
+
+    ```ps
+    pnpm update vite@latest vitest@latest @vitest/ui@latest jsdom@26.1.0
+    ```
+
+
+### Sep 22
+
+<!-- 
+  - [ ] 😢 **TBD** [Modifying the DOM](./src/006/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/006 ./src/006
+    ```
+
+    ✨ Remember to clone/push the starter kit you just grabbed:
+ -->
+
+- **Today**
+  - [ ] [Creating Functions](./src/007/ReadMe.md) (grab the starter kit first)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/007 ./src/007
+    ```
+
+    ✨ Remember to clone/push the starter kit you just grabbed:
   - [ ] [Event Listeners](./src/008/ReadMe.md) (grab the starter kit first)
 
     ```ps
@@ -317,26 +347,6 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 - **Homework:**
   - [ ] Complete the following QuickStart tutorials:
     - [ ] [Intro to Event Listeners](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)
-
-### Sep 19
-
-- **In-Class Lab 1**
-
-### Sep 22
-
-<!-- 
-
-    ```ps
-    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/006 ./src/006
-    ```
-
-    ✨ Remember to clone/push the starter kit you just grabbed:
- -->
-
-- **Today**
-  - [ ] 😢 **TBD** [Modifying the DOM](./src/006/ReadMe.md) (grab the starter kit first)
-- **Homework:**
-  - [ ] Complete the following QuickStart tutorials:
     - [ ] [DOM Interactions](https://dgilleland.github.io/CPSC-1520/tutorials/0080/)
 
 
