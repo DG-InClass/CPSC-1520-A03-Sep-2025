@@ -345,13 +345,21 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 
     ✨ Remember to clone/push the starter kit you just grabbed:
 - **Homework:**
-  - [ ] Complete the following QuickStart tutorials:
+  - [ ] Complete the following tutorial(s):
     - [ ] [DOM Interactions](https://dgilleland.github.io/CPSC-1520/tutorials/0080/)
+  - [ ] Have you done the other QuickStart tutorials? Are they in your Student Workbook?
+    - [ ] [Functions in JavaScript](https://dgilleland.github.io/CPSC-1520/tutorials/0017/)
+    - [ ] [More Objects](https://dgilleland.github.io/CPSC-1520/tutorials/0018/)
+    - [ ] [Reusable Functions](https://dgilleland.github.io/CPSC-1520/tutorials/0060/)
 
 
 ### Sep 24
 
 - **Today**
+  - [ ] A little more about functions
+    - The `return` keyword
+    - Inline function expressions vs. constants for functions
+      - Both can be "anonymous"
   - [ ] [Event Listeners](./src/008/ReadMe.md) (grab the starter kit first)
 
     ```ps
