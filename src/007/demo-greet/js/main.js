@@ -21,3 +21,14 @@ const describeImage = function(description) {
     imgElement.alt = description;
     imgElement.title = description;
 }
+
+// Here's another function, again as a Function Declaration
+// this sample will show why I ike constants with function expressions
+// instead of Function Declarations
+function appendToPage(content) {
+    let currentHTML = document.body.innerHTML;
+    let addedMarkup = `<div>${content}</div>`;
+    document.body.innerHTML = currentHTML + addedMarkup;
+    console.log('I added:', addedMarkup, 'to the current html:',currentHTML);
+    // Notice how my call to console.log() has 4 arguments
+}
