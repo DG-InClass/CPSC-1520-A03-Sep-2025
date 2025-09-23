@@ -20,6 +20,12 @@
 
 ----
 
+## Color Functions
+
+This [little sample](./color-functions/extra-functions.js) demonstrates functions that return a value. Instructions for running it are in the script file.
+
+----
+
 ## Practice Agreement
 
 - "Refactoring" refers to the process of improving the code without changing the functionality.

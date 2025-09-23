@@ -4,9 +4,11 @@
 
 *At the end of this lesson, you should be able to...*
 
+- [ ] Define the term "callback function" as used in JavaScript
 - [ ] Explain what is meant by the term "event listener"
 - [ ] Explain the difference between an event and an event handler
 - [ ] Explain how to hook event listeners up to elements in the DOM
+- [ ] Compare and contrast using an inline function versus a function name (*callback*) when adding an event listener 
 - [ ] Add a function as an event listener to an element in the DOM
 - [ ] Describe the event object and how to access it via event listener functions
 - [ ] List the common mouse events that occur in the browser

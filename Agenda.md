@@ -317,7 +317,6 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
     pnpm update vite@latest vitest@latest @vitest/ui@latest jsdom@26.1.0
     ```
 
-
 ### Sep 22
 
 <!-- 
@@ -358,15 +357,20 @@ Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Wo
 - **Today**
   - [ ] A little more about functions
     - The `return` keyword
-    - Inline function expressions vs. constants for functions
-      - Both can be "anonymous"
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/007/color-functions ./src/007/color-functions
+      ```
+
   - [ ] [Event Listeners](./src/008/ReadMe.md) (grab the starter kit first)
 
     ```ps
     pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/008 ./src/008
     ```
 
-    ✨ Remember to clone/push the starter kit you just grabbed
+    ✨ Remember to clone/push the starter kit you just grabbed:
+    - Inline function expressions vs. constants for functions
+      - Both can be "anonymous"
 - **Homework:**
   - [ ] Complete the following QuickStart tutorials:
     - [ ] [Intro to Event Listeners](https://dgilleland.github.io/CPSC-1520/tutorials/0070/)

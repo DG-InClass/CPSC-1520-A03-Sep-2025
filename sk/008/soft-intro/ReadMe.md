@@ -1,10 +1,10 @@
 # A Soft Intro to Event Handling
 
-- [ ] Listening for 'click' and 'dblclick' events
-  - Set the value of a counter to 1.
-  - Add an event listener to the `<button>` element so that we can respond to `'click'` events. When the user clicks, we will increment the counter and display the information. We'll use a **function name** when adding the listener.
+> See the [`main.js`](./js/main.js) for some existing code along with some instructions for adding some more event listeners.
+>
+> Additional tips/concepts/experiments are outined below.
+
 - [ ] Event handler - function name vs. anonymous inline function
-  - Add another event listener on the button for `'dblclick'` events. We'll use an **anonymous inline function**, and we'll re-set the counter to zero.
 - [ ] Event bubbling and `.stopPropagation()`
 
     ```js

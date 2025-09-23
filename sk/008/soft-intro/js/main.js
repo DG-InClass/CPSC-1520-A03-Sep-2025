@@ -1,3 +1,13 @@
+/* Soft Intro to Events
+    Consider that the HTML elements are structured/nested as follows:
+    - <body>
+        - <h1>
+            - <button>
+            - <small>
+                - <a>
+        - <pre>
+            - <output>
+*/
 console.log('JavaScript file loaded!');
 
 const handleClick = function(event) {

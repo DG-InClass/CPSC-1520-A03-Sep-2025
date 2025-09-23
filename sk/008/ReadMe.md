@@ -11,6 +11,10 @@ Each of the demos in this starter kit already have the `package.json` ready for 
 - [ ] 008 - 🆕 Event Listeners: button click, form submit, input change, etc.
   - [ ] Event Bubbling & Cancelling
 
+## Ultra-Soft Intro
+
+The code for this is all done for you. The task here is to read and understand&hellip;.
+
 ## Soft Intro
 
 Follow the [instructions](./soft-intro/ReadMe.md) with me in class to complete the soft intro to Events.
