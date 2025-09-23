@@ -4,11 +4,22 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-22).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-22). Also check out the [**Brightspace Quizzes**](#quiz-links).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
 > > My philosophy of teaching, taken from [the source](https://www.bible.com/bible/111/1TH.5.14.NIV)
+
+## Quiz Links
+
+Here are quick links to the quiz readings on Brightspace.
+
+- [Readings for Quiz/Assessment 1](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998885/View)
+- [Readings for Quiz/Assessment 2](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998928/View)
+- [Readings for Quiz/Assessment 3](https://lms.nait.ca/d2l/le/content/97639/viewContent/3998978/View)
+- [Readings for Quiz/Assessment 4](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999028/View)
+- [Readings for Quiz/Assessment 5](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999030/View)
+- [Readings for Quiz/Assessment 6](https://lms.nait.ca/d2l/le/content/97639/viewContent/3999078/View)
 
 
 > ## Starter Kits
