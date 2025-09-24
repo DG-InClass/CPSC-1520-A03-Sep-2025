@@ -1,0 +1,29 @@
+main {
+    display: grid;
+    grid-template-columns: auto 460px;
+    gap: 1.5rem;
+}
+main > header {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+header > hgroup > img {
+    float: left;
+    margin-right: 1.5rem;
+    width: 96px;
+    height: 96px;
+}
+
+aside > code > pre {
+    min-width: 450px;
+    min-height: 450px;
+}
+
+fieldset {
+    width: calc(100% - 500px - 1.5rem);
+}
+
+footer {
+    clear: both;
+}
