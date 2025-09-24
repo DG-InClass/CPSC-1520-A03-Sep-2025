@@ -10,11 +10,7 @@
 */
 console.log('JavaScript file loaded!');
 
-const handleClick = function(event) {
-    // TODO: Use for exploration purposes
-    const target = event.target;
-    document.getElementById('feedback').innerText = `Clicked from ${target.tagName}`;
-}
+import { handleClick, registerUser } from "./interactions";
 
 let heading = document.querySelector('h1');
 heading.addEventListener('click', handleClick);
@@ -23,6 +19,8 @@ heading.addEventListener('click', handleClick);
 //       Listen for the 'dblclick' event.
 //       Prompt the user for their name, then for their email,
 //       then output the information to the #feedback element.
+document.getElementById('register')
+        .addEventListener('dblclick', registerUser);
 
 // TODO: Add another event listener for the heading, this time for
 //       the 'dblclick' event.
