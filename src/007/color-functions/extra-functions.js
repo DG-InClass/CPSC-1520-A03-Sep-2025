@@ -32,6 +32,12 @@ const colorName = function(name, hexValue) {
 }
 
 console.log(colorName('rebeccapurple', '663399'));
+//                    \_____ A _______________/
+//          \_____ string ____________________/
+//      \__________ returns undefined _________/
+
+let theColor = colorName('darkorange', 'ff8c00');
+console.log(theColor);
 // A listing of some colors:
 // blueviolet	    #8a2be2
 // darkorange	    #ff8c00
