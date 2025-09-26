@@ -395,6 +395,7 @@ Here are quick links to the quiz readings on Brightspace.
 ### Sep 26
 
 - **In-Class Lab 2**
+  - 🚨 Remember to **read the lab specs** before you come to class
   - **Time Changes** for Release/Cutoff of in-class labs:
     - Available at 6AM on the Friday of the lab
     - Closed at 6AM the following day
