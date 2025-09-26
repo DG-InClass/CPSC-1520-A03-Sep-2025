@@ -396,6 +396,7 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **In-Class Lab 2**
   - 🚨 Remember to **read the lab specs** before you come to class
+  - I have posted [short steps for cloning your lab](https://dgilleland.github.io/CPSC-1520/about/lab-setup/).
   - **Time Changes** for Release/Cutoff of in-class labs:
     - Available at 6AM on the Friday of the lab
     - Closed at 6AM the following day
