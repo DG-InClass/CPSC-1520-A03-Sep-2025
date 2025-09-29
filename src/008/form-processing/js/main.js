@@ -1,3 +1,4 @@
+// Just a couple of functions for dumping feedback onto the page
 const appendFeedback = function(line) {
     document.querySelector('#feedback').innerText += `\n${line}`;
     // This uses a template string with placeholder  \_________/
@@ -11,13 +12,14 @@ const clearFeedback = function(text) {
 document
     .getElementById('subscribe') // Get the <form id="subscribe"> element
     .addEventListener('submit', function(ev) { // an anonymous function responding to submit
-        ev.preventDefault(); // This will stop the browser from submitting the form to the server
+        ev.preventDefault(); // 🚀 This will stop the browser from submitting the form to the server
         // console.log(ev);
-        let theForm = ev.target;
+        let theForm = ev.target; // For all 'submit', the .target will be a <form> element
+        console.log(theForm.elements); // .elements is the collection of user controls
         clearFeedback('The subscribe form was submitted.');
-        let firstNameInput = theForm.elements.firstname;
+        let firstNameInput = theForm.elements.firstname; // <input name="firstname" />
         appendFeedback("The first name is: '" + firstNameInput.value + "'");
-        let emailInput = theForm.elements.email;
+        let emailInput = theForm.elements.email; // <input name="email" />
         appendFeedback(`Their email is: '${emailInput.value}'`);
 
         appendFeedback(`Agreed to terms? '${theForm.elements.terms.checked}'`);
