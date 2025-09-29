@@ -31,9 +31,17 @@ let otherForm = document.querySelector('#assorted');
 const exploreForm = function(ev) {
     ev.preventDefault();
     clearFeedback('This is the data from the assorted form:');
-    let target = ev.target;
+    let target = ev.target; // <form>
     let theInputs = target.elements;
     console.log('theInputs: ', theInputs);
+
+    let message; // some variable for building strings
+    let inputDate = theInputs.date; // <input name="date" />
+    message = `You entered the following date: ${inputDate.value}`;
+    appendFeedback(message);
+    let inputColor = theInputs.color; // <input name="color" />
+    message = `You selected the following color: ${inputColor.value}`;
+    appendFeedback(message);
 
     // If your input control has a name with a dash in it,
     // use the name's value as an "index" for the object.
