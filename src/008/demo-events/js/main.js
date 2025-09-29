@@ -7,6 +7,11 @@ const handleFeatureClick = function() {
     console.log('img.feature was clicked...');
     let desc = document.querySelector('.feature.description');
     // The next line will remove the CSS class `hidden` from the element
+    // All HTML elements will have 
+    //    .classList   <-- The CSS Class Names on the element
+    //        .add('css-class')
+    //        .remove('css-class')
+    //        .toggle('css-class')
     desc.classList.remove('hidden');
 }
 
