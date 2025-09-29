@@ -1,8 +1,8 @@
 // Some global variables that we will re-use frequently
-const userInput = document.getElementById('userInput');
-const output = document.getElementById('transformedText');
+const userInput = document.getElementById('userInput');     // <input>
+const output = document.getElementById('transformedText');  // <pre>
 // Show the user input in the output
-output.innerText = userInput.value;
+output.innerText = userInput.value; // <input>.value
 // A little prep....
 const presetPaddingLength = function() {
     let input = document.getElementById('minLength');
@@ -10,9 +10,14 @@ const presetPaddingLength = function() {
 }
 presetPaddingLength();
 
+// A JQuery-like function -- DRY Code
+const $ = function(id) {
+    return document.getElementById(id);
+}
+
 // And now for the lesson....
 // Demo: 0) Completed demo to transform the user's input to upper case and display it
-document.getElementById('transformToUpperCase').addEventListener('click', function() {
+$('transformToUpperCase').addEventListener('click', function() {
     let newValue = userInput.value.toUpperCase();
     //             \  string     /
     output.innerText = newValue;
@@ -20,6 +25,10 @@ document.getElementById('transformToUpperCase').addEventListener('click', functi
 
 // TODO: 1) Write the code to transform the user's input to lower case and display it
 //       STUDENT_CODE_HERE
+$('transformToLowerCase').addEventListener('click', function() {
+    let newValue = userInput.value.toLowerCase();
+    output.innerText = newValue;
+});
 
 // Demo: 2) Write the code to pad the end of input text with the supplied character(s).
 // TODO:    Modify the code below to use the appropriate user input for padding.
