@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-24). Also check out the [**Brightspace Quizzes**](#quiz-links).
+> These are my notes on what I plan to teach in each [**upcoming class**](#sep-29). Also check out the [**Brightspace Quizzes**](#quiz-links).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -405,22 +405,39 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Sep 29
 
+- **Today:** [👀](http://localhost:4321/CPSC-1520/lessons/008)
+  - [Demo Events](./src/008/demo-events/)
+  - [Demo Text Manipulation](./src/008/demo-text-manipulation/ReadMe.md)
+  - [Form Processing](./src/008/form-processing/ReadMe.md)
+- **Homework:**
+  - Complete the [Demo Text Manipulation](./src/008/demo-text-manipulation/js/main.js) code.
 
 ### Oct 01
 
+- **Today:**
+  - QnA Class
+  - Study Period
 
 ### Oct 03
 
 - **In-Class Lab 3**
+  - More `import` and `export`
+  - Event listeners
+  - Add/Remove/Toggle CSS Classes
 
 ### Oct 06
 
+- **Today:**
+  - *009a* - *Freelance Web Development - Quote Estimator*
+  - If/Else
+- **Homework:**
 
 ### Oct 08
 
 
 ### Oct 10
 
+- **In-Class Lab 4**
 
 ### Oct 15
 
@@ -436,6 +453,7 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Oct 24
 
+- **In-Class Lab 5**
 
 ### Oct 27
 
@@ -457,6 +475,7 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Nov 14
 
+- **In-Class Lab 6**
 
 ### Nov 17
 
@@ -466,6 +485,7 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Nov 21
 
+- **In-Class Lab 7**
 
 ### Nov 24
 
@@ -493,6 +513,7 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Dec 12
 
+- **In-Class Lab 8**
 
 ### Dec 15
 
