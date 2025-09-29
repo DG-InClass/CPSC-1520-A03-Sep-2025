@@ -15,4 +15,10 @@ const showElementOnClick = function(clickElement, revealElement) {
     });
 }
 
-export { showElementOnClick }
+const hideElementOnDoubleClick = function(clickElement, hideElement) {
+    clickElement.addEventListener('dblclick', function() {
+        hideElement.classList.add("hidden");
+    });
+}
+
+export { showElementOnClick, hideElementOnDoubleClick }

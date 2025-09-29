@@ -2,7 +2,7 @@
     - Show the paragraph with the poem to the user when the user clicks on the image.
 
 */
-import { showElementOnClick } from './eventListeners';
+import { hideElementOnDoubleClick, showElementOnClick } from './eventListeners';
 
 let desc = document.querySelector('.feature.description');
 let featureImage = document.querySelector('img.feature');
@@ -10,6 +10,7 @@ let headerEl = document.querySelector('header > h1');
 
 showElementOnClick(featureImage, desc);
 showElementOnClick(headerEl, desc);
+hideElementOnDoubleClick(headerEl, desc);
 
 // // 1. Create a function to show the poem
 // const handleFeatureClick = function() {
