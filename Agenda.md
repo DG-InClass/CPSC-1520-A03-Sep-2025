@@ -437,13 +437,17 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Oct 10
 
-- **In-Class Lab 4**
+
+### Oct 13
+
+- ***No Classes*** - Thanksgiving
 
 ### Oct 15
 
 
 ### Oct 17
 
+- **In-Class Lab 4**
 
 ### Oct 20
 
