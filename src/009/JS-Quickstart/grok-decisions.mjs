@@ -139,3 +139,21 @@ let whisper = 'Wow';
 if(shout.toLowerCase() === whisper.toLowerCase()) {
     console.log('"WOW" and "Wow" are the same word!');
 }
+
+// Step 5) Logical Operators
+/* Logical Operators
+
+!       "NOT" operator (unary)
+&&      "AND" operator
+||      "OR" operator
+*/
+
+
+
+// Step 6) Flow-Control: Stacking
+
+// Step 7) Flow-Control: Nesting
+
+// Step 8) Complex Conditionals
+
+// Step 9) Function Calls in Conditionals
