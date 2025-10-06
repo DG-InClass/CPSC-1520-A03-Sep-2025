@@ -74,3 +74,68 @@ if(count === five) {
     message = `BUT, count (${count}) is a ${getDataType(count)} and five (${five}) is a ${getDataType(five)}.\n`;
     console.log(message);
 }
+
+// ===========================
+console.clear();
+/* Relational Operators
+
+==      "is equal to" - equality operator
+!=      "is not equal to" - equality operator
+===     "is equal to" - identity operator
+!==     "is not equal to" - identity operator
+>       greater than
+<       less than
+>=      greater than or equal to
+<=      less than or equal to
+*/
+
+// Step 4) Relational Operators
+console.log('Relational Operators');
+let result; // We'll set this value using different operators
+console.log(' -5  -4  -3  -2  -1   0   1   2   3   4   5  ');
+console.log('__|___|___|___|___|___|___|___|___|___|___|__');
+
+let total = 12.95, itemPrice = 2.59;
+
+if(itemPrice * count > 12.95) {
+    console.log(`${itemPrice} * ${count} is greater than $12.95.`);
+}
+if(itemPrice * count < 12.95) {
+    console.log(`${itemPrice} * ${count} is less than $12.95`);
+}
+
+message = `${itemPrice} * 3 is`;
+if(itemPrice * 3 > 7.77) {
+    message += ' GREATER THAN ';
+} else {
+    if(itemPrice * 3 < 7.77) {
+        message += ' less than ';
+    } else {
+        message += ' Equal To ';
+    }
+}
+message += '$7.77';
+console.log(message);
+
+// String comparisons
+if('Albert' > 'Barney') {
+    console.log('Albert is greater than Barney');
+} else {
+    console.log('Albert is less than Barney');
+}
+
+if('Albert' > 'albert') {
+    console.log('Upper case comes after lower case')
+    console.log('Albert is greater than albert');
+} else if('Albert' < 'albert') {
+    console.log('Lower case comes after Upper case');
+    console.log('Albert is less than albert');
+} else {
+    console.log('JavaScript does not care about case');
+}
+
+let shout = 'WOW';
+let whisper = 'Wow';
+if(shout.toLowerCase() === whisper.toLowerCase()) {
+    console.log('"WOW" and "Wow" are the same word!');
+}
