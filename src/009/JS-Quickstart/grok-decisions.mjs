@@ -43,3 +43,8 @@ if(success == true) {
     console.log('Success! The code inside this "block" will run.');
     console.log('Read on for more discoveries.\n');
 }
+
+if(success) {
+    // The conditional expression in an `if` statement just needs to work out as a boolean VALUE.
+    console.log('Since `success` is a booleand, there is no need to compare it to `true`.\n');
+}
