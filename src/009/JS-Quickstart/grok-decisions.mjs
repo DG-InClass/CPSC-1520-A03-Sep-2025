@@ -46,7 +46,7 @@ if(success == true) {
 
 if(success) {
     // The conditional expression in an `if` statement just needs to work out as a boolean VALUE.
-    console.log('Since `success` is a booleand, there is no need to compare it to `true`.\n');
+    console.log('Since `success` is a boolean, there is no need to compare it to `true`.\n');
 }
 
 // Step 2) The else Block
@@ -56,4 +56,21 @@ if(isEmployed) {
 } else {
     console.log('Do not fear! Perseverance is alwyas needed when job hunting!\n');
     console.log('By reviewing the fundamentals, you will improve everything that builds on them!\n');
+}
+
+// Step 3) Strict Equal vs. Equal
+let count = 5, five = '5';
+if(count == five) {
+    // The two values match (kinda)
+    message = `Loosely speaking, ${count} equals ${five}`;
+    console.log(message);
+}
+
+if(count === five) {
+    // The two values don't STRICTLY match, because they are
+    // different data types
+    console.log('This should NOT DISPLAY!!');
+} else {
+    message = `BUT, count (${count}) is a ${getDataType(count)} and five (${five}) is a ${getDataType(five)}.\n`;
+    console.log(message);
 }
