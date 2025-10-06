@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#sep-29). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#oct-06). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -428,15 +428,28 @@ Here are quick links to the quiz readings on Brightspace.
 ### Oct 06
 
 - **Today:**
-  - *009a* - *Freelance Web Development - Quote Estimator*
-  - If/Else
+  - 🚡 Lab 4/5 Date Changes
+  - **009** - If/Else
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/009 ./src/009
+    ```
+
+    ✨ Remember to commit/push the starter kit you just grabbed
+  - *009-a* - Grok Decisions
 - **Homework:**
+  - ***Rinse-n-Repeat*** - Expand on the `grok-decisions.mjs` file any time you need to better understand an if/else.
 
 ### Oct 08
 
+- **Today:**
+  - Continue with 009
+    - *009-b* - *Freelance Web Development - Quote Estimator*
 
 ### Oct 10
 
+- **Today:**
+  - 🎉
 
 ### Oct 13
 
