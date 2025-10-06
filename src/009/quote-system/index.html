@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Estimator</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/main.js" type="module"></script>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <h1>Freelance Web Development &ndash; Quote Estimator</h1>
+        <form>
+            <h2 class="grid">
+                <p>Quotes are subject to management review.</p>
+                <p>Transfer the quote breakdown to form QR-235.</p>
+                <button type="submit">Create Quote</button>
+                <button type="reset">Reset</button>
+            </h1>
+            <h4>Base Quote</h4>
+            <fieldset class="grid">
+                <fieldset role="group">
+                    <label for="job-duration" role="button" class="outline">Duration:</label>
+                    <input type="number" name="duration" id="job-duration" autofocus />
+                </fieldset>
+                <fieldset role="group">
+                    <label role="button" class="outline" style="pointer-events: none;">Interval:</label>
+                    <fieldset id="interval">
+                        <input type="radio" name="interval" id="interval-hours" />
+                        <label for="interval-hours" title="hours">hrs</label>
+                        <input type="radio" name="interval" id="interval-weeks" />
+                        <label for="interval-weeks" title="weeks">wks</label>
+                    </fieldset>
+                </fieldset>
+                <fieldset role="group">
+                    <label for="base-rate" role="button" class="outline">Base Rate:</label>
+                    <input type="number" name="base-rate" id="base-rate" />
+                </fieldset>
+                <fieldset role="group">
+                    <label role="button" class="outline" title="Start Date">Start:
+                    </label>
+                    <input type="date" name="start-date" />
+                </fieldset>
+            </fieldset>
+            <h4>Extras</h4>
+            <fieldset class="grid">
+                <fieldset role="group">
+                    <label role="button" class="outline" title="Digital Assets"># Images:</label>
+                    <input type="number" name="digitalAssetCount" />
+                    <label role="button" class="outline" title="Digital Asset Rate">$/Image:</label>
+                    <input type="number" name="digitalAssetRate" step="20" />
+                </fieldset>
+                <fieldset role="group">
+                    <label role="button" class="outline" id="writing">
+                        <input type="checkbox" name="includeContent" />
+                        Content Authoring:
+                    </label>
+                    <input type="number" name="per-word-rate" step="0.01" />
+                    <label role="button" class="outline" title="Per-Word Rate">$/Word:</label>
+                </fieldset>
+            </fieldset>            
+            <hr />
+            <h6>Quote Breakdown:</h6>
+                <output name="breakdown"></output>
+        </form>
+    </main>
+
+    <footer class="container" data-theme="dark">
+        <hr />
+        <ul>
+            <li>Using the <a href="https://picocss.com/" target="_blank">PicoCSS</a> No-Class Stylesheet.</li>
+            <li><a target="_blank" href="https://icons8.com/icon/8KjmxtKj6Qe0/dollar-banknote">Dollar Banknote</a> icon
+                by <a target="_blank" href="https://icons8.com">Icons8</a>.</li>
+            <li>Form samples include adaptations from the <a
+                    href="https://github.com/picocss/examples/blob/master/v2-html/index.html" target="_blank"
+                    rel="noopener noreferrer">PicoCSS Samples</a></li>
+        </ul>
+        <p>&copy; 2025 - Instructor Dan</p>
+    </footer>
+</body>
+
+</html>
