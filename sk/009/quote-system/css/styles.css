@@ -1,0 +1,42 @@
+html {
+    font-size: 16px;
+}
+
+h2, h4, h6 {
+    padding-bottom: 0;
+    margin-bottom: 0.2rem;
+}
+h2 p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+output {
+    white-space: pre-wrap;
+}
+
+input[type=number] {
+    max-width: 125px;
+}
+input[type=date] {
+    max-width: fit-content;
+}
+label {
+    max-width: fit-content;
+}
+#interval {
+    min-width: 250px;
+}
+#interval, #writing {
+    padding-left:15px;
+    margin: auto 15px;
+}
+#writing {
+    margin-right: 0;
+}
+
+[role=group]:has(input:not([type=submit],[type=button]):focus,select:focus), [role=search]:has(input:not([type=submit],[type=button]):focus,select:focus) {
+    /* --pico-group-box-shadow: var(--pico-group-box-shadow-focus-with-input); */
+    --pico-group-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
