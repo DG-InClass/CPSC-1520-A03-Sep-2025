@@ -48,3 +48,12 @@ if(success) {
     // The conditional expression in an `if` statement just needs to work out as a boolean VALUE.
     console.log('Since `success` is a booleand, there is no need to compare it to `true`.\n');
 }
+
+// Step 2) The else Block
+console.log('\nStep 2)\n');
+if(isEmployed) {
+    console.log('I happen to know this will not run...');
+} else {
+    console.log('Do not fear! Perseverance is alwyas needed when job hunting!\n');
+    console.log('By reviewing the fundamentals, you will improve everything that builds on them!\n');
+}
