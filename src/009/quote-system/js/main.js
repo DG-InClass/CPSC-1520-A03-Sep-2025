@@ -72,7 +72,14 @@ document.querySelector('form')
             }
         }
 
-        //  *  - interval selection must be made (hours vs. weeks)
+        //  ✅  - interval selection must be made (hours vs. weeks)
+        let missingHoursInput = !inputRadioHours.checked;
+        let missingWeeksInput = !inputRadioWeeks.checked;
+        if(missingHoursInput && missingWeeksInput) {
+            isValidInput = false;
+            errorSummary += "You must choose either Hours or Weeks for the duration.\n";
+        }
+
         //  *  - base rate must be $1000 or greater
         //  *  - digital assets must be greater than or equal to zero
         //  *  - if there are digital assets, then the per-asset price must be greater than $10
