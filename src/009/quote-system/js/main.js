@@ -81,6 +81,12 @@ document.querySelector('form')
         }
 
         //  *  - base rate must be $1000 or greater
+        let baseRate = parseFloat(inputBaseRate.value);
+        if(isNaN(baseRate) || baseRate < 1000) {
+            isValidInput = false;
+            errorSummary += "A base rate is required and must be $100 or higher.\n";
+        }
+
         //  *  - digital assets must be greater than or equal to zero
         //  *  - if there are digital assets, then the per-asset price must be greater than $10
         //  *  - if content authoring is to be included, then the per-word-rate must be between 25¢ and $1.25 inclusive
