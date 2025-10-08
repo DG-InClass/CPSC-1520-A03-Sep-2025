@@ -24,6 +24,9 @@ document.querySelector('form')
          * 
          * Stylistically, add/remove the attribute `aria-invalid="true"` appropriately
          */
+        let isValidInput = true; // Optimistic approach
+        let errorSummary = ""; // No problems to report (yet)
+
 
         // Core website development work
         const inputJobDuration = formControls.duration; // <input name="duration" id="job-duration" />
@@ -37,13 +40,14 @@ document.querySelector('form')
         // const inputContractPeriod = formControls.interval; // RadioNodeList: <input name="interval" />
         const inputBaseRate = formControls['base-rate']; // <input name="base-rate" />
 
+        /* This code was just a quick demo
         let jobDuration = parseFloat(inputJobDuration.value);
         message = `Job duration: ${jobDuration}`;
         let inHours = inputRadioHours.checked;
         let inWeeks = inputRadioWeeks.checked;
         message = `\tinHours:${inHours} | inWeeks:${inWeeks}\n` + message;
         outputControl.value += message;
-
+        */
 
         // Digital Assets (extra charges)
         const inputImageCount = formControls.digitalAssetCount; // <input name="" />
@@ -54,4 +58,15 @@ document.querySelector('form')
         const inputPerWordRate = formControls['per-word-rate']; // <input name="per-word-rate" />
         const inputStartDate = formControls['start-date']; // <input type="date" name="start-date" />
 
+        // Step 0) Validate the user input
+        //      TODO:
+        // Step 1) Decide if I process the inputs or report erros
+        if(isValidInput) {
+            // Step 2) Do all the processing to procuce the quote for the web contract
+            // TODO: Create the estimate...
+        } else {
+            // Step 3) Report that the user needs to try again
+            outputControl.value = errorSummary;
+            inputJobDuration.focus(); // re-set the focus to the first input
+        }
     });
