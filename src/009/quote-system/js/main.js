@@ -59,7 +59,28 @@ document.querySelector('form')
         const inputStartDate = formControls['start-date']; // <input type="date" name="start-date" />
 
         // Step 0) Validate the user input
-        //      TODO:
+        //  ✅  - job duration must be greater than zero
+        let jobDuration = parseFloat(inputJobDuration.value); // Get the input & convert to num
+        if(isNaN(jobDuration)) { // isNaN() --- is Not a Number
+            isValidInput = false;
+            errorSummary += "Job duration is required.\n";
+        } else {
+            // Yes, it's a number, BUT
+            if(jobDuration <= 0) {
+                isValidInput = false;
+                errorSummary += "Job duration must be greater than zero.\n";
+            }
+        }
+
+        //  *  - interval selection must be made (hours vs. weeks)
+        //  *  - base rate must be $1000 or greater
+        //  *  - digital assets must be greater than or equal to zero
+        //  *  - if there are digital assets, then the per-asset price must be greater than $10
+        //  *  - if content authoring is to be included, then the per-word-rate must be between 25¢ and $1.25 inclusive
+        //  *  - Start date must be in the future (cannot be on the same day as the quote)
+        //  *  - Start date must not be too far in the future (max is 3 months from today)
+
+
         // Step 1) Decide if I process the inputs or report erros
         if(isValidInput) {
             // Step 2) Do all the processing to procuce the quote for the web contract
