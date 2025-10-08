@@ -1,9 +1,9 @@
 
 document.querySelector('form')
     .addEventListener('submit', function(evt) {
-        evt.preventDefault();
-        const form = evt.target;
-        const formControls = form.elements;
+        evt.preventDefault(); // Stop the form from sending data to the web server (this course)
+        const form = evt.target; // is always the <form>
+        const formControls = form.elements; // the collction of form controls inside <form></form>
 
         console.log(formControls);
 
@@ -28,6 +28,10 @@ document.querySelector('form')
         // Core website development work
         const inputJobDuration = formControls.duration; // <input name="duration" id="job-duration" />
         // const inputJobDuration = formControls['job-duration']; // <input name="duration" id="job-duration" />
+        // Notice how, in order to get the individual radio buttons from the radio-button-group,
+        // that I used the id attribute of the <input>. Also notice that the id name was in
+        // kebab-case. That means I have to use an Array Indexer to reference that <input>
+        // in the formControls.
         const inputRadioHours = formControls['interval-hours']; // <input type="radio" name="interval" id="interval-hours" />
         const inputRadioWeeks = formControls['interval-weeks']; // <input type="radio" name="interval" id="interval-weeks" />
         // const inputContractPeriod = formControls.interval; // RadioNodeList: <input name="interval" />
