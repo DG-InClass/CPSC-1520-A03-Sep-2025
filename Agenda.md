@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#oct-06). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#oct-10). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -449,7 +449,33 @@ Here are quick links to the quiz readings on Brightspace.
 ### Oct 10
 
 - **Today:**
-  - 🎉
+  - Quick Topics:
+    - Looping Syntax `for`
+    - Arrays
+    - Arrow Function Syntax
+    - Optional Chaining Operator `?.`
+    - Object Literals + Destructuring Objects
+  - 🎉 Assignment 1
+    - Startup Help
+
+      ```ps
+      pnpm add -D @d2t/vitest-ctrf-json-reporter
+      ```
+
+    - Helper Functions
+
+      ```js
+      const setInvalid = (field) => {
+        field.setAttribute('aria-invalid','true');
+        const id = field.getAttribute('aria-describedby');
+        if (id) document.getElementById(id)?.classList.remove('hide');
+      };
+      const clearInvalid = (field) => {
+        field.removeAttribute('aria-invalid');
+        const id = field.getAttribute('aria-describedby');
+        if (id) document.getElementById(id)?.classList.add('hide');
+      };
+      ```
 
 ### Oct 13
 
