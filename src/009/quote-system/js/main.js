@@ -103,4 +103,11 @@ document.querySelector('form')
             outputControl.value = errorSummary;
             inputJobDuration.focus(); // re-set the focus to the first input
         }
+
+        /* Quote Calculations:
+         *  - Base Quote = baseRate + interval*(hours*30 | weeks*30*30)
+         *  - Image Quote = digitalAssets*assetRate
+         *  - Content Quote = wordRate * 1000 (min # words for authoring)
+         */
+
     });
