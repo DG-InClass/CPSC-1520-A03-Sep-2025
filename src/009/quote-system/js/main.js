@@ -98,16 +98,16 @@ document.querySelector('form')
         if(isValidInput) {
             // Step 2) Do all the processing to procuce the quote for the web contract
             // TODO: Create the estimate...
+
+            /* Quote Calculations:
+            *  - Base Quote = baseRate + interval*(hours*30 | weeks*30*30)
+            *  - Image Quote = digitalAssets*assetRate
+            *  - Content Quote = wordRate * 1000 (min # words for authoring)
+            */
         } else {
             // Step 3) Report that the user needs to try again
             outputControl.value = errorSummary;
             inputJobDuration.focus(); // re-set the focus to the first input
         }
-
-        /* Quote Calculations:
-         *  - Base Quote = baseRate + interval*(hours*30 | weeks*30*30)
-         *  - Image Quote = digitalAssets*assetRate
-         *  - Content Quote = wordRate * 1000 (min # words for authoring)
-         */
 
     });
