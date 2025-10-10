@@ -449,12 +449,6 @@ Here are quick links to the quiz readings on Brightspace.
 ### Oct 10
 
 - **Today:**
-  - Quick Topics:
-    - Looping Syntax `for`
-    - Arrays
-    - Arrow Function Syntax
-    - Optional Chaining Operator `?.`
-    - Object Literals + Destructuring Objects
   - 🎉 Assignment 1
     - Startup Help
 
@@ -482,6 +476,17 @@ Here are quick links to the quiz readings on Brightspace.
 - ***No Classes*** - Thanksgiving
 
 ### Oct 15
+
+- **Today:**
+  - *About **Lab 4***
+  - `if`/`else` Questions
+  - Introduction to Looping + Arrays
+  - Quick Topics:
+    - Looping Syntax `for`
+    - Arrays
+    - Arrow Function Syntax
+    - Optional Chaining Operator `?.`
+    - Object Literals + Destructuring Objects
 
 
 ### Oct 17
