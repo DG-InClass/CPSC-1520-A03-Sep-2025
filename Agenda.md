@@ -492,6 +492,7 @@ Here are quick links to the quiz readings on Brightspace.
 ### Oct 17
 
 - **In-Class Lab 4**
+  - Read the [Logical Errors](https://dgilleland.github.io/CPSC-1520/guides/0150/) article on "Faulty" Conditionals
 
 ### Oct 20
 
