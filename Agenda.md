@@ -494,6 +494,18 @@ Here are quick links to the quiz readings on Brightspace.
 - **Announcements**
   - Assignment 1 Due Date is changed
   - I will make some commentary in class about Assignment 1
+    - 📝 TIPS
+      - Use `.trim()` whenever retrieving the `.value` of an input
+      - Log messages to the Dev Tools Console whenever you need to check the value of things at any point in your code.
+
+        Check out [`console.assert()`](https://developer.mozilla.org/en-US/docs/Web/API/console/assert_static) and/or make it stand out with some custom formatting using functions like this:
+
+        ```js
+        function logWithColor(title, message, color) {
+            console.log(`%c${title}:%c ${message}`, 'color: green; background-color: white; font-size: 1.05rem; font-weight: bold;', `color: ${color ? color : 'inherit'}`);
+        }
+        ```
+
 - **In-Class Lab 4**
   - Read the [Logical Errors](https://dgilleland.github.io/CPSC-1520/guides/0150/) article on "Faulty" Conditionals
 
