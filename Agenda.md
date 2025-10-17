@@ -494,6 +494,7 @@ Here are quick links to the quiz readings on Brightspace.
 - **Announcements**
   - Assignment 1 Due Date is changed
   - I will make some commentary in class about Assignment 1
+    - ♻️ [Apply Lab Updates](https://dgilleland.github.io/CPSC-1520/about/lab-updates/)
     - 📝 TIPS
       - Use `.trim()` whenever retrieving the `.value` of an input
       - Log messages to the Dev Tools Console whenever you need to check the value of things at any point in your code.
