@@ -1,0 +1,22 @@
+/* Global box sizing reset */
+* {
+    box-sizing: border-box;
+}
+
+#output {
+    font-size: 1.25em;
+    height: 40vh;
+}
+
+input::placeholder {
+    color: #888888;
+    font-style: italic;
+}
+
+.error {
+    color: rgb(134, 29, 19);
+}
+
+span.error::before {
+    content: '⚠️';
+}

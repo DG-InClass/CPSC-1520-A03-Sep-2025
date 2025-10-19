@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Marks</title>
+    <link rel="icon" type="image/png" href="./favicon.webp">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body class="container">
+    <h1>Course Marks</h1>
+    <form>
+        <fieldset class="grid">
+            <legend>Add Evaluation Item</legend>
+            <label>Evaluation Name
+                <input type="text" name="evalName" placeholder="Evaluation Name" autofocus>
+                <small>E.g.: Quiz 1, Lab 1, etc.</small>
+            </label>
+            <label>Weight (%)
+                <input type="number" name="weight" step="1" min="1" max="100" />
+                <small>A value between 1 and 100</small>
+            </label>
+            <label>Total Points
+                <input type="number" name="totalPoints" step="0.5" min="1" />
+                <small>Number of points on the evaluation</small>
+            </label>
+            <label>Earned Points
+                <input type="number" name="earnedPoints" step="0.5" min="0" />
+                <small>Number of points awarded</small>
+            </label>
+        </fieldset>
+        <div class="grid">
+            <button type="submit">Add Eval Item</button>
+            <button type="reset" class="secondary">Reset Form</button>
+            <button type="button" id="calc" disabled>Calculate</button>
+            <button type="button" id="fake" class="outline" disabled>Fake Data</button>
+        </div>
+    </form>
+    <hr />
+    <pre><code id="output">Zoom screen to 75% for side-by-side with VS Code
+</code></pre>
+</body>
+
+</html>
