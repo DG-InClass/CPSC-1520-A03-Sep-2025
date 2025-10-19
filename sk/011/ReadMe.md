@@ -35,4 +35,8 @@ In the [JS-Quickstart](./JS-Quickstart/ReadMe.md) folder, there are several exam
 
 ## Arrays in Websites
 
+> 📺 Coming soon!
+
 ### Cards
+
+> 🎴 Playing Card Demo
