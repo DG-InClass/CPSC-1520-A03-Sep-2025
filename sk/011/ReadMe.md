@@ -2,7 +2,7 @@
 
 ## Just JS Arrays
 
-In the [JS-Quickstart](./JS-Quickstart) folder, there are several examples of dealing with arrays. See the MDN documentation on [**Array**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+In the [JS-Quickstart](./JS-Quickstart/ReadMe.md) folder, there are several examples of dealing with arrays. See the MDN documentation on [**Array**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Here's just a sample of what we'll look at.
 
 - The `process.argv` array
 - The `.length` property
