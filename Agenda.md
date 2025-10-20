@@ -512,21 +512,67 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Oct 20
 
+- **Today**
+  - Introduction to Looping + Arrays
+    - See this [slideshow](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html) as a reference. Even though it's for C#, most of the principles still apply in JavaScript.
+  - Quick Topics:
+    - Looping Syntax `for`
+    - Arrays
+    - Arrow Function Syntax
+    - Optional Chaining Operator `?.`
+    - Object Literals + Destructuring Objects
+  - You can grab the following starter kit on Arrays:
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011 ./src/011
+    ```
+
+- **Homework** 
+  - Study the code for the following files in the starter kit:
+    - [`arg-parser.js`](./src/011/JS-Quickstart/arg-parser.js)
+    - [`arrays.js`](./src/011/JS-Quickstart/arrays.js)
+    - 🎉 [`a-backlog.js`](./src/011/JS-Quickstart/a-backlog.js)
+    - 🚀 [`built-in-functions.js`](./src/011/JS-Quickstart/built-in-functions.js)
 
 ### Oct 22
 
+- **Today**
+  - **010** - Looping - Web Page Demos
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/010 ./src/010
+    ```
+
+    ✨ Remember to commit/push the starter kit you just grabbed
 
 ### Oct 24
 
-- **In-Class Lab 5**
+- **Today**
+  - **011** - Arrays - Web Page Demos
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011 ./src/011
+    ```
+
+    ✨ Remember to commit/push the starter kit you just grabbed
 
 ### Oct 27
 
+- **Today**
+  - **012** - JSON and Fetch
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/012 ./src/012
+    ```
+
+    ✨ Remember to commit/push the starter kit you just grabbed
 
 ### Oct 29
 
 
 ### Oct 31
+
+- **In-Class Lab 5**
 
 
 ### Nov 03
