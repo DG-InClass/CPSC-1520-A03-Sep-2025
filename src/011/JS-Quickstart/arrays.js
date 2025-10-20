@@ -1,20 +1,32 @@
 // node --watch arrays.js
+console.clear(); // clear the screen
 const log = console.log;
 
 // 1) Strings and Arrays
 topic("Strings and Arrays");
 let message = "Work hard and you'll get Arrays!";
+// The .split() function is used to create an array of strings from a single string.
 let words = message.split(' ');
 log("When we split a sentance into words:\n", words);
 
-// Discover for..in
+// For loops are what we commonly use to "iterate" or "loop" through all the elements/items in an array.
+// The traditional for statement
+/*
+for(let index = 0; index < words.length; index++) {
+    let aWord = words[index];
+    // whatever I want....
+}
+ */
+
+// Discover for..in   <=== each index in the array
 for(let index in words) {
     let aWord = words[index];
     message = `words at [${index}] is ${aWord}`;
     log(message);
 }
 log();
-// Discover for..of
+
+// Discover for..of   <=== each item in the array
 for(let aWord of words) {
     log('- ',aWord);
 }
@@ -27,14 +39,19 @@ topic("Helpful Arrays for Dates");
 let now = new Date();
 //  now.getYear()
 //  now.getFullYear()
-//  now.getMonth()
-//  now.getDay()
+//  now.getMonth()      <=== zero-based month number
+//  now.getDay()        <=== zero-based day-of-week
 //  now.getDate()
 
 // Build our own arrays
+// With an array of month names, I can use the .getMonth()
+// property of a date object in order to get the name of
+// that date's month.
 let monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
 let weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 log(`The month names are:\n  "${monthNames.join(', ')}"`);
+log();
 
 message = `Today is ${weekDays[now.getDay()]}, ${monthNames[now.getMonth()]} ${now.getDate()}\n`;
 
