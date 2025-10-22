@@ -14,12 +14,18 @@ topic('Simple Object Literals');
 let instructor = {
     name: "Dan Gilleland",
     githubProfile: "https://github.com/dgilleland",
+    // The help function below has a default value for
+    // the display parameter
     help: function(display = false) {
         const result = `If you have questions, you can contact me via MS Teams.
 - ${this.name}
   - ${this.githubProfile}\n`;
+        if(display) log(result);
+        return result;
     }
 }
+log(instructor);
+instructor.help(true);
 
 // 2. Date Object in JavaScript
 topic('Date Object in JavaScript');
@@ -95,9 +101,11 @@ log(greet()); // Hello, Guest!
 log(greet("Alice")); // Hello, Alice!
 
 // 8. Closures
+//     The secret to understanding closures in JavaScript
+//     is to understand SCOPE in JavaScript.
 topic('Closures');
 function makeCounter() {
-    let count = 0;
+    let count = 0;  // is "closed" in terms of "visibility"
     return function() {
         count++;
         return count;
