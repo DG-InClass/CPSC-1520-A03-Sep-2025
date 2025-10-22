@@ -537,6 +537,7 @@ Here are quick links to the quiz readings on Brightspace.
 ### Oct 22
 
 - **Today**
+  - [About C# Lambdas and Delegates](https://dmit-2018.github.io/topics/linq/lambda.html)
   - **010** - Looping - Web Page Demos
 
     ```ps
@@ -544,6 +545,8 @@ Here are quick links to the quiz readings on Brightspace.
     ```
 
     ✨ Remember to commit/push the starter kit you just grabbed
+
+
 
 ### Oct 24
 
