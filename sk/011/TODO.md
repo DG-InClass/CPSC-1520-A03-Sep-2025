@@ -1,5 +1,8 @@
-- **Checkboxes** - Checkboxes - `document.querySelectorAll` regular loop (not an array) - `.checked` on/off
-- **CourseMarks-2** - 
-- **GuessingGame** - 
-- **MasterMind** - 
-- **Slideshow** - 
+- **010**
+  - [**Checkboxes**](../010/Checkboxes/ReadMe.md) - Checkboxes - `document.querySelectorAll` regular loop (not an array) - `.checked` on/off
+    - It includes a *Challenge* section as a practice.
+- **011**
+  - [**CourseMarks-2**](./CourseMarks-2/ReadMe.md) - 
+  - [**GuessingGame**](./GuessingGame/ReadMe.md) - 
+  - [**MasterMind**](./MasterMind/README.md) - ***Read* the code** for this demo. It is a great way to check your understanding of what's going on!
+  - [**Slideshow**](./) - This is a **practice** assigment.

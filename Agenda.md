@@ -521,11 +521,13 @@ Here are quick links to the quiz readings on Brightspace.
     - Arrow Function Syntax
     - Optional Chaining Operator `?.`
     - Object Literals + Destructuring Objects
+<!-- 
   - You can grab the following starter kit on Arrays:
 
     ```ps
     pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011 ./src/011
     ```
+-->
 
 - **Homework** 
   - Study the code for the following files in the starter kit:
@@ -546,7 +548,7 @@ Here are quick links to the quiz readings on Brightspace.
   - Note the [**Array Function docs**](./src/011/ReadMe.md#built-in-functionsjs)
   - **011**
     - Create the `JS-Quickstart/cards.js` to practice loops within loops
-  - **010** - Looping - Node Lists
+  - **010** - Looping - Node Lists (Checkboxes)
 
     ```ps
     pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/010/Checkboxes ./src/010/Checkboxes
@@ -567,10 +569,11 @@ Here are quick links to the quiz readings on Brightspace.
   - Slideshow (Practice)
 
     ```ps
-    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011/PlayingCards ./src/011/PlayingCards
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011/Slideshow ./src/011/Slideshow
     ```
 
     ✨ Remember to commit/push the starter kit before you make edits
+  - Guessing Game
 
 ### Oct 27
 
