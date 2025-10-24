@@ -1,0 +1,62 @@
+const container = document.getElementById('players');
+
+const form = document.querySelector('form');
+// TODO: Add Event Listener
+
+const dealButton = document.getElementById('deal-me-in');
+// TODO: Add Event Listener
+
+const shuffledCards = [
+    "4D",
+    "3D",
+    "4H",
+    "6S",
+    "3H",
+    "4S",
+    "JC",
+    "3C",
+    "7C",
+    "6C",
+    "8H",
+    "KD",
+    "KH",
+    "JH",
+    "QH",
+    "7H",
+    "AS",
+    "8S",
+    "3S",
+    "8C",
+    "0S",
+    "7S",
+    "6H",
+    "4C",
+    "JD",
+    "9S",
+    "0D",
+    "5S",
+    "AC",
+    "9H",
+    "2C",
+    "0H",
+    "9C",
+    "8D",
+    "6D",
+    "KS",
+    "QC",
+    "KC",
+    "5H",
+    "2S",
+    "JS",
+    "QD",
+    "2H",
+    "7D",
+    "AD",
+    "2D",
+    "0C",
+    "AH",
+    "9D",
+    "5C",
+    "QS",
+    "5D"
+]
