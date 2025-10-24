@@ -32,6 +32,7 @@ dealButton.addEventListener('click', function(evt) {
     const players = container.querySelectorAll('div');
     // I can use the .forEach() function that comes with the NodeList data type
     players.forEach(playerHand => {
+        // TODO: Make sure there are enough cards left in the deck....
         const card = shuffledCards.pop();
         const img = `<img src="/img/${card}.svg" alt="${card}" />`;
         playerHand.innerHTML += img;
