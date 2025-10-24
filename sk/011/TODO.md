@@ -1,0 +1,5 @@
+- **Checkboxes** - Checkboxes - `document.querySelectorAll` regular loop (not an array) - `.checked` on/off
+- **CourseMarks-2** - 
+- **GuessingGame** - 
+- **MasterMind** - 
+- **Slideshow** - 

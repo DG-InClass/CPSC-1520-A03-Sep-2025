@@ -1,0 +1,62 @@
+/* Global box sizing reset */
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+#output {
+    font-size: 1.25rem;
+    height: 10vh;
+    min-height: 8rem;
+}
+
+input::placeholder {
+    color: #888888;
+    font-style: italic;
+}
+
+#status > fieldset[role=group] {
+    align-items: center;
+}
+label:has[output] {
+    margin-left: calc(var(--pico-border-width)* -1);
+}
+output {
+    padding: var(--pico-form-element-spacing-vertical) var(--pico-form-element-spacing-horizontal);
+    height: calc(1rem* var(--pico-line-height) + var(--pico-form-element-spacing-vertical)* 2 + var(--pico-border-width)* 2);
+    --pico-outline-width: 0.0625rem;
+
+    --pico-background-color: var(--pico-form-element-background-color);
+    --pico-border-color: var(--pico-form-element-border-color);
+    --pico-color: var(--pico-form-element-color);
+    --pico-box-shadow: none;
+    border: var(--pico-border-width) solid var(--pico-border-color);
+    border-radius: var(--pico-border-radius);
+    outline: 0;
+    background-color: var(--pico-background-color);
+    box-shadow: var(--pico-box-shadow);
+    color: var(--pico-color);
+    font-weight: var(--pico-font-weight);
+
+    margin: 0;
+    font-size: 1rem;
+    line-height: var(--pico-line-height);
+    font-family: inherit;
+    letter-spacing: inherit;
+
+    margin-left: .25rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.error {
+    color: rgb(134, 29, 19);
+}
+
+span.error::before {
+    content: '⚠️';
+}

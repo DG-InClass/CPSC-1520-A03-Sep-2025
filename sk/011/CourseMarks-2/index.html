@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Marks V2</title>
+    <link rel="icon" type="image/png" href="./favicon.webp">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body class="container">
+    <h1>
+        Course Marks V2
+        <small>
+            <a href="." class="secondary">(Refresh Page 🔃)</a>
+        </small>
+    </h1>
+    <form id="addInputs">
+        <fieldset role="group">
+            <input type="text" name="category" placeholder="Category" title="Name for the set of eval items" autofocus />
+            <input type="number" name="quantity" placeholder="Qty" title="Number of eval items to create" />
+            <button type="submit" title="Generate a set of evaluations">Scaffold</button>
+        </fieldset>
+    </form>
+    <section>
+        <form id="status">
+            <fieldset role="group">
+                <label>Total Weight
+                    <output id="total-weight">0 %</output>
+                </label>
+                <label>Earned To-Date
+                    <output id="earned-weight">0 %</output>
+                </label>
+                <label>Remaining
+                    <output id="remaining-weight">0 %</output>
+                </label>
+                <button type="submit">Calculate Marks</button>
+            </fieldset>
+        </form>
+    </section>
+    <section id="evaluations">
+    </section>
+    <hr />
+    <pre><code id="output">Zoom screen to 75% for side-by-side with VS Code
+</code></pre>
+</body>
+
+</html>
