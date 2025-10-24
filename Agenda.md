@@ -4,7 +4,7 @@
 Note to selff: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#oct-17). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#oct-24). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -538,26 +538,39 @@ Here are quick links to the quiz readings on Brightspace.
 
 - **Today**
   - [About C# Lambdas and Delegates](https://dmit-2018.github.io/topics/linq/lambda.html)
-  - **010** - Looping - Web Page Demos
-
-    ```ps
-    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/010 ./src/010
-    ```
-
-    ✨ Remember to commit/push the starter kit you just grabbed
-
 
 
 ### Oct 24
 
 - **Today**
-  - **011** - Arrays - Web Page Demos
+  - Note the [**Array Function docs**](./src/011/ReadMe.md#built-in-functionsjs)
+  - **011**
+    - Create the `JS-Quickstart/cards.js` to practice loops within loops
+  - **010** - Looping - Node Lists
 
     ```ps
-    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011 ./src/011
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/010/Checkboxes ./src/010/Checkboxes
     ```
 
-    ✨ Remember to commit/push the starter kit you just grabbed
+    ✨ Remember to commit/push the starter kit before you make edits
+
+  - **011** - Arrays - Web Page Demos
+    - Playing Cards
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011/PlayingCards ./src/011/PlayingCards
+      ```
+
+      ✨ Remember to commit/push the starter kit before you make edits
+
+- **Homework:**
+  - Slideshow (Practice)
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/011/PlayingCards ./src/011/PlayingCards
+    ```
+
+    ✨ Remember to commit/push the starter kit before you make edits
 
 ### Oct 27
 
