@@ -1,0 +1,19 @@
+{
+  "name": "more-modern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.1.12"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.0.6",
+    "markdown-it": "^14.1.0"
+  }
+}

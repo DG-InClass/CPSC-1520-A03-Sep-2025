@@ -1,0 +1,21 @@
+{
+  "name": "student-marks",
+  "version": "0.1.0",
+  "description": "An application to store/retrieve/edit student marks in JSON format.",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.1.12",
+    "vitest": "^3.0.8"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.0.6",
+    "json-server": "1.0.0-beta.3",
+    "markdown-it": "^14.1.0"
+  }
+}

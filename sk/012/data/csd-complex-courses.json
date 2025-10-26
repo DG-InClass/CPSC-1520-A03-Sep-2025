@@ -1,0 +1,94 @@
+[
+  {
+    "code": "CPSC-1520",
+    "name": "Client-Side Scripting with JavaScript",
+    "evaluations": [
+      { "name": "Lab 1", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 2", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 3", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 4", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 5", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 6", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 7", "weight": 5, "earned": null, "possible": null},
+      { "name": "Lab 8", "weight": 5, "earned": null, "possible": null},
+      { "name": "Quiz 1", "weight": 5, "earned": null, "possible": null},
+      { "name": "Quiz 2", "weight": 5, "earned": null, "possible": null},
+      { "name": "Quiz 3", "weight": 5, "earned": null, "possible": null},
+      { "name": "Quiz 4", "weight": 5, "earned": null, "possible": null},
+      { "name": "Quiz 5", "weight": 5, "earned": null, "possible": null},
+      { "name": "Quiz 6", "weight": 5, "earned": null, "possible": null},
+      { "name": "Assignment 1", "weight": 10, "earned": null, "possible": null},
+      { "name": "Assignment 2", "weight": 10, "earned": null, "possible": null},
+      { "name": "Assignment 3", "weight": 10, "earned": null, "possible": null}
+    ]
+  },
+  {
+    "code": "ANAP-1525",
+    "name": "System Analysis and Design I",
+    "evaluations": [
+        { "name": "Bucket 1", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 2", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 3", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 4", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 5", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 6", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 7", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 8", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 9", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 10", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Bucket 11", "weight": { "group": "Bucket", "distribution": "equal", "weight": 20}, "earned": null, "possible": null},
+        { "name": "Applied Assessment 1", "weight": 5, "earned": null, "possible": null},
+        { "name": "Applied Assessment 2", "weight": 15, "earned": null, "possible": null},
+        { "name": "Applied Assessment 3", "weight": 15, "earned": null, "possible": null},
+        { "name": "Applied Assessment 4", "weight": 15, "earned": null, "possible": null},
+        { "name": "Lab 1", "weight": 15, "earned": null, "possible": null},
+        { "name": "Lab 2", "weight": 15, "earned": null, "possible": 0 }
+    ]
+  },
+  {
+    "code": "DMIT-1530",
+    "name": "Web Design Fundamentals II",
+    "evaluations": [
+        { "name": "Quiz 1", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 2", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 1", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 2", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 3", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 4", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 5", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 6", "weight": 5, "earned": null, "possible": null},
+        { "name": "Assignment 1", "weight": 20, "earned": null, "possible": null},
+        { "name": "Assignment 2", "weight": 20, "earned": null, "possible": null},
+        { "name": "Assignment 3", "weight": 20, "earned": null, "possible": null }
+    ]
+  },
+  {
+    "code": "CPSC-1517",
+    "name": "Introduction to Application Development",
+    "evaluations": [
+        { "name": "Assessment 1", "weight": 15, "earned": null, "possible": null},
+        { "name": "Assessment 2", "weight": 15, "earned": null, "possible": null},
+        { "name": "Assessment 3", "weight": 15, "earned": null, "possible": null},
+        { "name": "Exercise 1", "weight": 7.5, "earned": null, "possible": null},
+        { "name": "Exercise 2", "weight": 7.5, "earned": null, "possible": null},
+        { "name": "Exercise 3", "weight": 7.5, "earned": null, "possible": null},
+        { "name": "Exercise 4", "weight": 7.5, "earned": null, "possible": null},
+        { "name": "Project A", "weight": 10, "earned": null, "possible": null},
+        { "name": "Project B", "weight": 15, "earned": null, "possible": null }
+    ]
+  },
+  {
+    "code": "ORGB-1500",
+    "name": "Organizational Behaviour for Media and IT",
+    "evaluations": [
+        { "name": "Quiz 1", "weight": 10, "earned": null, "possible": null },
+        { "name": "Quiz 2", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 3", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 4", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 5", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 6", "weight": 10, "earned": null, "possible": null },
+        { "name": "Quiz 7", "weight": 10, "earned": null, "possible": null },
+        { "name": "Quiz 8", "weight": 10, "earned": null, "possible": null }
+    ]
+  }
+]

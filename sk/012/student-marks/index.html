@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Marks</title>
+    <link rel="icon" type="image/png" href="./favicon.webp" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body class="container">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <img src="./img/android-chrome-192x192.png" alt="Logo" width="32" />
+            <strong>Mark Manager</strong>
+          </li>
+        </ul>
+        <ul>
+          <li><button type="button" class="secondary" id="about">About</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>My Courses</h1>
+      <section id="courses"></section>
+      <template id="course-shell">
+        <details>
+          <summary>
+            <span class="course-code"></span>
+            <span class="course-name"></span> &mdash;
+            <span class="summary-marks"></span>
+          </summary>
+          <section class="grid grid-col-4"></section>
+          <hr />
+        </details>
+      </template>
+      <dialog id="about-dialog">
+        <article id="about-contents"></article>
+      </dialog>
+    </main>
+    <footer></footer>
+  </body>
+</html>
