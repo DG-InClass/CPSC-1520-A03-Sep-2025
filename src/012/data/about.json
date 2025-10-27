@@ -1,0 +1,16 @@
+{
+    "propertyName": "someData",
+    "anotherProperty": true,
+    "answer": 42,
+    "characteristics": [
+        "JSON stands for JavaScript Object Notation",
+        "JSON files have the extension .json",
+        "Properties in JSON are always in double quotes",
+        "Values for properties can be strings, number, booleans, other objects, or arrays",
+        "JSON structure looks a lot like Object Literal syntax in JavaScript",
+        "JSON is for DATA ONLY",
+        "No functions in JSON objects",
+        "A JSON file can be (at it root) either an object or an array",
+        "JSON was developed because it easily converts to and from JavaScript"
+    ]
+}
