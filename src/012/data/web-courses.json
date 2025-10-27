@@ -1,0 +1,83 @@
+[
+  {
+    "code": "CPSC-1520",
+    "name": "Client-Side Scripting with JavaScript",
+    "evaluations": [
+        { "name": "Lab 1", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 2", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 3", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 4", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 5", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 6", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 7", "weight": 5, "earned": null, "possible": null},
+        { "name": "Lab 8", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 1", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 2", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 3", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 4", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 5", "weight": 5, "earned": null, "possible": null},
+        { "name": "Quiz 6", "weight": 5, "earned": null, "possible": null},
+        { "name": "Assignment 1", "weight": 10, "earned": null, "possible": null},
+        { "name": "Assignment 2", "weight": 10, "earned": null, "possible": null},
+        { "name": "Assignment 3", "weight": 10, "earned": null, "possible": null}
+    ]
+  },
+  {
+    "code": "DMIT-1530",
+    "name": "Web Design Fundamentals 2",
+    "evaluations": [
+        { "name": "Quiz 1", "weight": 5, "earned": null, "possible": null },
+        { "name": "Quiz 2", "weight": 5, "earned": null, "possible": null },
+        { "name": "Assignment 1", "weight": 20, "earned": null, "possible": null },
+        { "name": "Assignment 2", "weight": 20, "earned": null, "possible": null },
+        { "name": "Assignment 3", "weight": 20, "earned": null, "possible": null },
+        { "name": "Lab 1", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab 2", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab 3", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab 4", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab 5", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab 6", "weight": 5, "earned": null, "possible": null }
+    ]
+  },
+  {
+    "code": "DMIT-1529",
+    "name": "Web Design and Usability 1",
+    "evaluations": [
+        { "name": "Lab - CRAP", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab - Typographic Baseline", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab - Web Typography", "weight": 5, "earned": null, "possible": null },
+        { "name": "Project - Web Typography", "weight": 20, "earned": null, "possible": null },
+        { "name": "Lab - Redesign", "weight": 5, "earned": null, "possible": null },
+        { "name": "Lab - Wireframes", "weight": 5, "earned": null, "possible": null },
+        { "name": "Project - Wireframes", "weight": 25, "earned": null, "possible": null },
+        { "name": "Lab - Redesign Presentation", "weight": 5, "earned": null, "possible": null },
+        { "name": "Project - Website", "weight": 25, "earned": null, "possible": null }
+    ]
+  },
+  {
+    "code": "DMIT-1533",
+    "name": "Digital Photography",
+    "evaluations": [
+        { "name": "Assignment 1", "weight": 15, "earned": null, "possible": null },
+        { "name": "Assignment 2", "weight": 15, "earned": null, "possible": null },
+        { "name": "Assignment 3", "weight": 15, "earned": null, "possible": null },
+        { "name": "Assignment 4", "weight": 15, "earned": null, "possible": null },
+        { "name": "Assignment 5", "weight": 15, "earned": null, "possible": null },
+        { "name": "Assignment 6", "weight": 25, "earned": null, "possible": null }
+    ]
+  },
+  {
+    "code": "ORGB-1500",
+    "name": "Organizational Behaviour for Media and IT",
+    "evaluations": [
+        { "name": "Quiz 1", "weight": 10, "earned": null, "possible": null },
+        { "name": "Quiz 2", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 3", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 4", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 5", "weight": 15, "earned": null, "possible": null },
+        { "name": "Quiz 6", "weight": 10, "earned": null, "possible": null },
+        { "name": "Quiz 7", "weight": 10, "earned": null, "possible": null },
+        { "name": "Quiz 8", "weight": 10, "earned": null, "possible": null }
+    ]
+  }
+]
