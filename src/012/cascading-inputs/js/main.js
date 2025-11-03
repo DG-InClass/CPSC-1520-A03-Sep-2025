@@ -1,3 +1,12 @@
+// <throwaway>
+import { fetchCountryNamesAsync } from './data/fetchCountries';
+// try out the function and dump the data in the console
+// The following is an example of a "Top-Level Await"
+const data = await fetchCountryNamesAsync();
+console.log(data);
+// </throwaway>
+
+
 // Supplied code: Do not edit below this line...
 import { setupCascadingUserInputs } from './ui/countryInput';
 import { setupFormProcessing } from './ui/formProcessing';

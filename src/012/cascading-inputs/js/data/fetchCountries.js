@@ -9,6 +9,13 @@ const allCountriesEndpoint = 'https://countriesnow.space/api/v0.1/countries';
 
 // A) TODO: Get the cached data
 //  - Async/Await - A "blocking" approach (leaves you waiting...)
+export async function fetchCountryNamesAsync() {
+    // Inside of functions marked as "async",
+    // I can now use the await keyword.
+    const response = await fetch(cachedCountries); // pause until I get something back
+    const parsedJson = await response.json(); // pause until the conversion from JSON to JS is done
+    return parsedJson; // This should be a JavaScript object
+}
 
 // B) TODO: Get the remote data
 //  - Promise/Then - An "eventually..." approach (.then())
