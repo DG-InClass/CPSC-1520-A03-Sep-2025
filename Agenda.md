@@ -596,12 +596,28 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Nov 03
 
+- **Today**
+  - 📦 Gotta talk more objects
+    - [Some more about Objects and JSON](./src/012/JS-Quickstart/about-objects.js)
+    - [Create `about-passing-objects.js`](./src/012/JS-Quickstart/about-passing-objects.js)
+  - 🤔 What about sorting arrays
+    - [Create `another-array-note.js`](./src/012/JS-Quickstart/another-array-note.js)
+  - 🦴 More `fetch()` - Cascading Inputs with Country Data
+
+    ```ps
+    pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A04-Sep-2025/sk/012/cascading-inputs ./src/012/cascading-inputs
+    ```
+
 
 ### Nov 05
 
+- **Today**
+  - Finish the [cascading-inputs](./src/012/cascading-inputs/ReadMe.md) demo
 
 ### Nov 12
 
+- **Today**
+  - QnA Class Time
 
 ### Nov 14
 

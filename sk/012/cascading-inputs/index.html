@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Inputs</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Country/City/State Selection</h1>
+        <section>
+            <form id="cascading-inputs">
+                <label>
+                    Pick a country
+                    <input type="hidden" id="country-code" name="countryCode" />
+                    <input type="text" id="country-name" name="country" list="countries" autofocus />
+                    <datalist id="countries"></datalist>
+                </label>
+                <label>
+                    Enter your city/village/community`
+                    <input type="text" name="city" list="known-cities" />
+                    <datalist id="known-cities"></datalist>
+                </label>
+                <label id="state-input">
+                    Select the state/province/region
+                    <select id="state" name="state">
+                        <option value="">[select a region]</option>
+                    </select>
+                </label>
+                <button id="submit" type="submit">Submit</button>
+                <button type="reset">Reset Form</button>
+                <button type="button">Clear Results</button>
+            </form>
+        </section>
+        <section>
+            <h2>Results</h2>
+            <pre><code id="results"></code></pre>
+        </section>
+    </main>
+</body>
+</html>
