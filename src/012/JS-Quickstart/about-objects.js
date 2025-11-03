@@ -59,19 +59,35 @@ console.log(friends);
 person = new Person('Wilma', 'Slaghoople', null);
 console.log(person);
 friends.push(person);
-// console.table(friends);
+console.table(friends.map(one=>({ first: one.givenName, last: one.surname })));
 
 // =========== JSON ================
 // JavaScript Object Notation
 //
 // JSON.stringify() to convert an object into a JSON string
 let data = JSON.stringify(friends[0], null, 2);
-
-console.log(data);
+console.log('--------------')
+console.log('data is a', typeof(data), '\n', data);
+console.log('--------------')
 // To convert a JSON string back to an object, you use JSON.parse()
 let objectData = JSON.parse(data);
-console.log(objectData);
+console.log('objectData is a', typeof(objectData), '\n', objectData);
+console.log('==============');
 
 let fred = friends[0];
+console.log('fred is a', typeof(fred), '\n', fred);
+console.log('===============');
+
+// We can deconstruct an object's data,
+// extracting only what we are interested in.
+let { givenName, surname } = fred;
+//    \_______/  \_____/       |
+//  these are properties of   this object
+console.log('I de-constructed the fred object');
+console.log(givenName, surname);
+
+
+
+console.log('...............');
 let barney = friends[1];
 console.log('Fred was born on: ', fred.dob.valueOf());
