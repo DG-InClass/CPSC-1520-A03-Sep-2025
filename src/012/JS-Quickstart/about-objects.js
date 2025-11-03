@@ -85,7 +85,7 @@ let { givenName, surname } = fred;
 //  these are properties of   this object
 console.log('I de-constructed the fred object');
 console.log(givenName, surname);
-
+// This was an example of "Object Destructuring"
 
 
 console.log('...............');
