@@ -11,7 +11,7 @@
     <main>
         <h1>Country/City/State Selection</h1>
         <section>
-            <form id="cascading-inputs">
+            <form id="cascading-inputs" autocomplete="off">
                 <label>
                     Pick a country
                     <input type="hidden" id="country-code" name="countryCode" />
@@ -29,9 +29,11 @@
                         <option value="">[select a region]</option>
                     </select>
                 </label>
-                <button id="submit" type="submit">Submit</button>
-                <button type="reset">Reset Form</button>
-                <button type="button">Clear Results</button>
+                <fieldset class="grid">
+                    <button id="submit" type="submit">Submit</button>
+                    <button type="reset">Reset Form</button>
+                    <button type="button">Clear Results</button>
+                </fieldset>
             </form>
         </section>
         <section>

@@ -6,6 +6,7 @@ const data = await fetchCountryNamesAsync();
 console.log(data);
 // </throwaway>
 
+import '@picocss/pico/css/pico.slate.min.css'; // Or, you could use things like .orange.min.css
 
 // Supplied code: Do not edit below this line...
 import { setupCascadingUserInputs } from './ui/countryInput';
