@@ -1,11 +1,3 @@
-// <throwaway>
-import { fetchCountryNamesAsync } from './data/fetchCountries';
-// try out the function and dump the data in the console
-// The following is an example of a "Top-Level Await"
-const data = await fetchCountryNamesAsync();
-console.log(data);
-// </throwaway>
-
 import '@picocss/pico/css/pico.slate.min.css'; // Or, you could use things like .orange.min.css
 
 // Supplied code: Do not edit below this line...
