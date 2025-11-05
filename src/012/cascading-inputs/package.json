@@ -12,5 +12,8 @@
   "packageManager": "pnpm@10.17.1",
   "devDependencies": {
     "vite": "7.1.11"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.1.1"
   }
 }
