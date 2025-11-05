@@ -14,7 +14,14 @@ export async function fetchCountryNamesAsync() {
     // I can now use the await keyword.
     const response = await fetch(cachedCountries); // pause until I get something back
     const parsedJson = await response.json(); // pause until the conversion from JSON to JS is done
-    return parsedJson; // This should be a JavaScript object
+    return parsedJson.map(mapFromRichData); // This should be a JavaScript object
+}
+
+const mapFromRichData = (countryInfo) => {
+    return {
+        name: countryInfo.name,  // .name, because I looked at the stuff coming back
+        alpha3Code: countryInfo.alpha3Code
+    }
 }
 
 // B) TODO: Get the remote data
