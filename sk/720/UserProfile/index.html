@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="module" src="./js/main.js"></script>
+</head>
+
+<body class="container">
+    <main>
+        <h1>User Profile</h1>
+        <section id="editor-container">
+            <form action="" id="editor">
+                <label>Display Name
+                    <input type="text" name="displayName" placeholder="The name publicly visible on your profile" autofocus />
+                </label>
+                <label>Bio
+                    <textarea name="bio" rows="5" placeholder="Describe yourself"></textarea>
+                </label>
+                <button type="submit">Update Profile</button>
+            </form>
+            <hr />
+        </section>
+        <section id="profile-container"></section>
+    </main>
+</body>
+
+</html>
