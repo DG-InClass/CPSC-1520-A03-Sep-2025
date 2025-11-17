@@ -7,7 +7,9 @@
  * @param {HTMLOListElement} document.sortedList Ordered list of Todo items
  */
 export function configureTodoActions({todoForm, unsortedList, sortedList}) {
-    // TODO: 
+    // TODO: Set up for form submissions and buton clicks
+    setupFormProcessing({todoForm, unsortedList});
+    setupButtonClicks({unsortedList, sortedList});
 }
 
 /**
@@ -18,7 +20,32 @@ export function configureTodoActions({todoForm, unsortedList, sortedList}) {
  * @param {HTMLUListElement} document.unsortedList Unordered list of Todo items
  */
 const setupFormProcessing = function({todoForm, unsortedList}) {
+    todoForm.addEventListener('submit', (ev) => {
+        ev.preventDefault();
+        // I'll ignore validation for the moment
+        const reminder = ev.target.elements.todo.value; // <input name="todo" />
+        const li = createUnsortedListItem(reminder);
+        unsortedList.appendChild(li);
+    });
+}
 
+const createUnsortedListItem = function(text) {
+    // <li>{text} <button>trash</button> <button>right-arrow</button></li>
+    const li = document.createElement('li');
+    const textNode = document.createTextNode(text);
+    const trashButton = createButton(buttonType.secondary);
+    const trashIcon = createFontIcon(icon.trash);
+    const rightButton = createButton(buttonType.primary);
+    const rightIcon = createFontIcon(icon.moveRight);
+
+    // Assemble the parts
+    li.appendChild(textNode);
+    li.appendChild(trashButton);
+    trashButton.appendChild(trashIcon);
+    li.appendChild(rightButton);
+    rightButton.appendChild(rightIcon);
+
+    return li;
 }
 
 /**
@@ -37,6 +64,36 @@ const setupButtonClicks = function({unsortedList, sortedList}) {
     // Move an item from unsorted to sorted using the `.appendChild()`
     // Move an item up or down in the list with `.insertBefore()`.
 }
+
+
+// Utility functions
+const createFontIcon = (iconName) => {
+    const element = document.createElement('i');
+    element.classList.add('las', iconName);
+    return element;
+}
+
+const createButton = (className) => {
+    const element = document.createElement('button');
+    element.type = 'button';
+    element.classList.add('outline', className);
+    return element;
+}
+
+// Utility objects - offer property names for specific
+// hard-coded strings. This makes my code more maintainable.
+const icon = {
+    trash: 'la-trash',
+    moveRight: 'la-arrow-right',
+    moveDown: 'la-arrow-circle-down',
+    moveUp: 'la-arrow-circle-up'
+}
+
+const buttonType = {
+    primary: 'primary',
+    secondary: 'secondary'
+}
+
 
 // NOTES:
 //
