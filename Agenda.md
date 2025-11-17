@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-03). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-17). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -625,7 +625,25 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Nov 17
 
+- **Today**
+  - [User Profile Demo](./src/013/UserProfile/ReadMe.md).
+    - Exploring the DOM API for creating Elements and TextNodes.
+    - Begin with this starter kit:
 
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/720/UserProfile ./src/013/UserProfile
+      ```
+
+  - [Move/Remove Demo](./src/013/MoveRemove/ReadMe.md).
+    - Exploring more DOM API methods.
+    - Begin with this starter kit:
+
+      ```ps
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/720/MoveRemove ./src/013/MoveRemove
+      ```
+
+- **Homework**
+  - Readings in [Move/Remove Demo](./src/013/MoveRemove/ReadMe.md)
 ### Nov 19
 
 

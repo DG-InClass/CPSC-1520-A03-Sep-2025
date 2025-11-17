@@ -1,6 +1,6 @@
 # Final Topics
 
-- [DOM API](./UserProfile/ReadMe.md) - Create a User Profile
+- **DOM API** with [User Profile](./UserProfile/ReadMe.md) (Create a User Profile) and [Move/Remove](./MoveRemove/ReadMe.md) (Manage Reminders)
   - [Survey Form] - Generate a survey form from a JSON file
   - [Layout Engine] - Allow a user to design a web page by choosing parts (top nav, left/right side bars, footer) and pre-filling it with Markdown-loaded content
 - [Timers and Intervals]

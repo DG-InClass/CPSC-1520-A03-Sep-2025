@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move/Remove</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body class="container">
+    <main>
+        <h1>Move and Remove</h1>
+        <form id="reminders">
+            <fieldset role="group">
+                <input type="text" name="todo" autofocus />
+                <input type="submit" value="Add Item">
+            </fieldset>
+        </form>
+        <section class="grid">
+            <div>
+                <h2><strong>Unsorted</strong> Reminders</h2>
+                <ul id="unsorted">
+                    <li>Learn DOM APIs <button type="button" class="outline secondary"><i class="las la-trash"></i></button> <button type="button" class="outline primary"><i class="las la-arrow-right"></i></button></li>
+                </ul>
+            </div>
+            <div>
+                <h2><strong>Sorted</strong> Reminders</h2>
+                <ol id="sorted"></ol>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
