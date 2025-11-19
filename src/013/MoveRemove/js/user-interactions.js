@@ -40,8 +40,10 @@ const createUnsortedListItem = function(text) {
 
     // Assemble the parts
     li.appendChild(textNode);
+    li.appendChild(createSpace());
     li.appendChild(trashButton);
     trashButton.appendChild(trashIcon);
+    li.appendChild(createSpace());
     li.appendChild(rightButton);
     rightButton.appendChild(rightIcon);
 
@@ -56,6 +58,45 @@ const createUnsortedListItem = function(text) {
  * @param {HTMLOListElement} document.sortedList Ordered list of Todo items
  */
 const setupButtonClicks = function({unsortedList, sortedList}) {
+    unsortedList.addEventListener('click', (evt) => {
+        console.log(evt.target.tagName);
+        const btn = getButton(evt.target);
+        if(btn) {
+            const child = btn.firstElementChild; // I'm expecting it to exist
+            let action = "";
+            child.classList.forEach(className => {
+                if(className.endsWith(icon.trash)) action = icon.trash;
+                else if(className.endsWith(icon.moveRight)) action = icon.moveRight;
+            });
+            const listItem = btn.parentElement;
+            switch(action) {
+                case icon.trash:
+                    // remove the list item
+                    listItem.remove();
+                    break;
+                case icon.moveRight:
+                    // re-locate the list item to the sorted list
+                    sortedList.appendChild(listItem); // 🎉
+                    // Change it's appearance
+                    // a) replace the move-right button with a move-up button
+                    const moveUp = createButton(buttonType.primary);
+                    const iconUp = createFontIcon(icon.moveUp);
+                    moveUp.appendChild(iconUp);
+
+                    listItem.replaceChild(moveUp, btn);
+                    // b) add a move-down button
+                    const moveDown = createButton(buttonType.primary);
+                    const iconDown = createFontIcon(icon.moveDown);
+                    moveDown.appendChild(iconDown);
+
+                    listItem.appendChild(createSpace());
+                    listItem.appendChild(moveDown);
+
+                    break;
+            }
+        }
+    })
+
     // Challenge: Can you do this with ONE event handler?!
 
     // Only respond to clicks on buttons
@@ -78,6 +119,21 @@ const createButton = (className) => {
     element.type = 'button';
     element.classList.add('outline', className);
     return element;
+}
+
+const createSpace = () => document.createTextNode(' ');
+
+/**
+ * Encapsulate the logic for getting the button that was clicked
+ * @param {HTMLElement} element This should be the target of the event
+ * @returns {HTMLButtonElement | null} The button (if that was clicked)
+ */
+const getButton = (element) => {
+    let result = null;
+    if(element.tagName === 'BUTTON') result = element;
+    else if(element.parentElement.tagName === 'BUTTON') result = element.parentElement;
+
+    return result;
 }
 
 // Utility objects - offer property names for specific
