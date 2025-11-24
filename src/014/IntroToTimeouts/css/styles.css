@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+    @apply container;
+}
+
+main {
+    @apply justify-items-center;
+}
+
+h1 {
+    @apply text-4xl font-semibold mb-4;
+}
+
+section {
+    @apply justify-items-center flex flex-col;
+}
+
+button, input[type=button] {
+    @apply border px-4 rounded-md text-2xl my-4 font-bold;
+}
+
+button:disabled, input[type=button]:disabled {
+    @apply bg-slate-100 font-normal italic;
+}
+
+output {
+    @apply text-2xl text-green-700 font-bold;
+}
+
+output::before {
+    content: "$ "
+}
