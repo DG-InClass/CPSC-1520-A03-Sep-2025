@@ -21,10 +21,16 @@ document.getElementById('main-button').addEventListener('click', function() {
   if (mainButton.textContent === 'Start') {
     const startTime = Date.now() - elapsedTime;
     // A) Start the interval
+    stopwatchInterval = setInterval(function() {
+        // Date.now() gives the current date/time as milliseconds since the Epoch time.
+        elapsedTime = Date.now() - startTime;
+        stopwatch.textContent = formatTime(elapsedTime);
+    }, 10); // Just 10 milliseconds between "refresh" renderings of my stopwatch
 
     mainButton.textContent = 'Stop';
   } else {
     // B) Stop the interval
+    clearInterval(stopwatchInterval); // Stop the timer by clearing the interval
 
     mainButton.textContent = 'Start';
   }
@@ -32,6 +38,7 @@ document.getElementById('main-button').addEventListener('click', function() {
 
 document.getElementById('clear-button').addEventListener('click', function() {
   // C) Stop the interval before clearing the display
+  clearInterval(stopwatchInterval);
 
   document.getElementById('main-button').textContent = 'Start';
   document.querySelector('.stopwatch').textContent = '00:00:00:000';
