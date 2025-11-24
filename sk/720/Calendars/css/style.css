@@ -1,0 +1,16 @@
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0;
+    width: calc(75px * 7);
+}
+
+#calendar > div {
+    width: 75px;
+    height: 75px;
+    border: solid thin gainsboro;
+}
+
+#calendar > div > span {
+
+}

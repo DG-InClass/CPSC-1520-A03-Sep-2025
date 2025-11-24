@@ -3,9 +3,19 @@
 - **DOM API** with [User Profile](./UserProfile/ReadMe.md) (Create a User Profile) and [Move/Remove](./MoveRemove/ReadMe.md) (Manage Reminders)
   - [Survey Form] - Generate a survey form from a JSON file
   - [Layout Engine] - Allow a user to design a web page by choosing parts (top nav, left/right side bars, footer) and pre-filling it with Markdown-loaded content
-- [Timers and Intervals]
+- **Timers and Intervals** with [Timeouts](./IntroToTimeouts/ReadMe.md), [Intervals](./IntroToIntervals/ReadMe.md) and applying it to a sample [Stop-Watch 2.0](./StopWatch2.0/ReadMe.md)
   - [Sign Out] -  Automatically sign the user out after a predetermined amount of time
+  - [Toaster] - Pop up an *acheivement notification* when the user clicks on part of the page. The achievement should disappear after a set amount of time (no CSS).
   - [Apocalypse Never] - Will the user keep pressing the button to avert the apocalypse? Is it even possible? What if the user has to pee!? Unless the user keeps pressing the button with x seconds of the last press, the end will come.
-- [JavaScript Classes]
-- (extra) [The `window` Object]
-  - [Primitive Routing] - Update the address bar URL on Navbar links and show/hide content as a result
+  - [Copy-Cat Timer] - Replicate the functionality you see on [*TickCounter*](https://www.tickcounter.com/30minutes). Build this from the ground up!
+- **JavaScript Classes** with [Rectangles](./Rectangles/ReadMe.md) and [Phone](./JS-Quickstart/phone-network.js)
+- ***EXTRA Topics***
+  - Custom Events with [Phone Network]
+  - Dates and Array Destructuring with [Calendars](./Calendars/ReadMe.md)
+  - [Icon Matching Game](../101/ReadMe.md)
+  - [HTML Entity Encoding](../../side-quests/htmlEncoding/ReadMe.md)
+  - [Demo Reveal](../../sandbox/DemoReveal/)
+  - [The `window` Object]
+    - [Primitive Routing] - Update the address bar URL on Navbar links and show/hide content as a result
+- **JS-Quickstart** Extras
+  - [GitHub API Rate Limit/Stats](./JS-Quickstart/about-fetch.js)
