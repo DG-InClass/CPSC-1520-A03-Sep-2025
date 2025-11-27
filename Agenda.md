@@ -4,7 +4,7 @@
 Note to self: See https://github.com/CPSC-1520/DanG-A01-CPSC-1520-Instructor-Workbook-2025-Jan/
 -->
 
-> These are my notes on what I plan to teach in each [**upcoming class**](#nov-24). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
+> These are my notes on what I plan to teach in each [**upcoming class**](#nov-28). Also check out the [**Brightspace Quizzes**](#quiz-links) and the [**Draft Planning Calendar**](./Calendar.md).
 >
 > ###### *... Warn those who are idle ..., encourage the disheartened, help the weak, be patient with everyone.*
 >
@@ -682,8 +682,14 @@ Here are quick links to the quiz readings on Brightspace.
 ### Nov 26
 
 - **Today**
+  - *Lab time*
 
 ### Nov 28
+
+- **Today**
+  - 🎉 Important notes on Assignment 3
+    - "Broken" file name - how to fix without breaking tests...
+    - UI Test Viewer
 
 
 ### Dec 01
