@@ -21,6 +21,6 @@ This draft planning calendar shows the dates for all **evaluation items**. For a
 | Week 11 |  Nov 10 - 14   | Quiz 4, Nov 14 |                      | Due: Assignment 2, Nov 14 |
 | Week 12 |  Nov 17 - 21   |                | Lab 7, Nov 21        | Out: Assignment 3, Nov 21 |
 | Week 13 |  Nov 24 - 28   | Quiz 5, Nov 28 |                      |                           |
-| Week 14 |   Dec 1 - 5    |                |                      | Due: Assignment 3, Dec 5  |
-| Week 15 |   Dec 8 - 12   | Quiz 6, Dec 12 | Lab 8, Dec 12        |                           |
+| Week 14 |   Dec 1 - 5    |                |                      |   |
+| Week 15 |   Dec 8 - 12   | Quiz 6, Dec 12 | Lab 8, Dec 12        | Due: Assignment 3, Dec 12                          |
 | Week 16 |  Dec 15 - 16   |                |                      |                           |
