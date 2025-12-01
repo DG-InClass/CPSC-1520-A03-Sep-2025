@@ -687,18 +687,13 @@ Here are quick links to the quiz readings on Brightspace.
 ### Nov 28
 
 - **Today**
-  - 😢 No-show - Topics deferred to Monday, Dec. 1
-  - ~~🎉 Important notes on Assignment 3~~
-    - ~~"Broken" file name - how to fix without breaking tests...~~
-    - ~~UI Test Viewer~~
-
+  - 🎉 Important notes on Assignment 3
+    - "Broken" file name - how to fix without breaking tests...
+    - UI Test Viewer
 
 ### Dec 01
 
 - **Today**
-  - 🎉 Important notes on Assignment 3
-    - "Broken" file name - how to fix without breaking tests...
-    - UI Test Viewer
   - Debugging - [Move/Remove](./src/013/MoveRemove/)
 
 ### Dec 03
