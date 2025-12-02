@@ -14,3 +14,9 @@
 #calendar > div > span {
 
 }
+
+aside {
+    float:right;
+    margin-left: 2em;
+    width: 400px;
+}

@@ -10,7 +10,14 @@
 <body>
     <main>
         <h1>Calendars</h1>
-        <input type="month" name="selectedMonth" id="selectedMonth" />
+        
+        <aside id="sample-months">Not all months have the same number of weeks. For example, contrast <input type="button" value="Nov 2025" /> and <input type="button" value="Feb 2026" /> with a regular month like <input type="button" value="Dec 2025" />, <input type="button" value="Jan 2026" /> or <input type="button" value="Mar 2026" />.</aside>
+        
+        <label>
+            Select a month.
+            <input type="month" name="selectedMonth" id="selected-month" />
+        </label>
+        
         <section id="calendar"></section>
     </main>
 </body>

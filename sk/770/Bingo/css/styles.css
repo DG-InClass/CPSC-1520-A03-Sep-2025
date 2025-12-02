@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Point Tailwind at where your HTML lives */
+@source "../**/*.html";
+
+@layer components {
+  /* Root BINGO table */
+  table[data-bingo-card] {
+    @apply border-collapse mx-auto text-center text-sm;
+  }
+
+  /* Header: B I N G O letters */
+  table[data-bingo-card] thead {
+    th {
+      @apply px-4 py-1 border border-slate-500 font-bold tracking-wide 
+             bg-slate-100 text-base;
+      /* cells stay as wide as their content by default; no width applied */
+      @apply whitespace-nowrap;
+    }
+  }
+
+  /* Body rows: numbers */
+  table[data-bingo-card] tbody {
+    td {
+      @apply px-2 py-1 border border-slate-400 align-middle 
+             whitespace-nowrap select-none;
+    }
+    td.free {
+        @apply px-0 mx-auto font-stretch-condensed text-sm font-bold;
+    }
+    /* Optional: subtle hover so players can “mark” a cell visually */
+    td:hover {
+      @apply bg-yellow-100 cursor-pointer italic;
+    }
+    td.free:hover {
+      @apply bg-orange-100 cursor-pointer;
+    }
+
+    /* Optional: slightly larger text for readability */
+    td[data-value] {
+      @apply font-semibold text-base;
+    }
+  }
+}
