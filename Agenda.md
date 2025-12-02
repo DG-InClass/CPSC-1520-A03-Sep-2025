@@ -706,7 +706,7 @@ Here are quick links to the quiz readings on Brightspace.
     - A quick look at *Debugging in the **browser dev tools***
 
       ```ps
-      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A04-Sep-2025/sk/770/Bingo ./src/016/Bingo
+      pnpm dlx tiged --disable-cache --force DG-InClass/CPSC-1520-A03-Sep-2025/sk/770/Bingo ./src/016/Bingo
       ```
 
 ### Dec 05
