@@ -711,11 +711,19 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Dec 05
 
+- **Today**
+  - *Work Period*
 
 ### Dec 08
 
+- **Today**
+  - *Work Period*
+
 
 ### Dec 10
+
+- **Today**
+  - *Work Period*
 
 
 ### Dec 12
@@ -724,3 +732,5 @@ Here are quick links to the quiz readings on Brightspace.
 
 ### Dec 15
 
+- **Today**
+  - *End of term - no new topics*
